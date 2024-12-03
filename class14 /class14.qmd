@@ -1,0 +1,240 @@
+---
+title: "Class 14: RNA-Seq Analysis mini-project"
+author: "Pamelina Lo (AID: 16735368)"
+format: pdf
+---
+
+## Section 1. Differential Expression Analysis
+
+```{r}
+library(DESeq2)
+```
+
+```{r}
+metaFile <- "GSE37704_metadata.csv"
+countFile <- "GSE37704_featurecounts.csv"
+
+#Import metadata
+colData = read.csv(metaFile, row.names=1)
+head(colData)
+```
+
+```{r}
+# Import countdata
+countData = read.csv(countFile, row.names=1)
+head(countData)
+```
+
+>Q. Complete the code below to remove the troublesome first column from countData
+
+```{r}
+countData <- as.matrix(countData[,-1])
+head(countData)
+```
+ 
+This looks better but there are lots of zero entries in there so let's get rid of them as we have no data for these.
+
+>Q. Complete the code below to filter countData to exclude genes (i.e. rows) where we have 0 read count across all samples (i.e. columns). Tip: What will rowSums() of countData return and how could you use it in this context?
+
+```{r}
+countData = countData[rowSums(countData) > 0, ]
+head(countData)
+```
+## Running DESeq2
+
+```{r}
+dds = DESeqDataSetFromMatrix(countData=countData,
+                             colData=colData,
+                             design=~condition)
+dds = DESeq(dds)
+```
+
+```{r}
+dds
+```
+
+```{r}
+res = results(dds, contrast=c("condition", "hoxa1_kd", "control_sirna"))
+```
+
+
+>Q. Call the summary() function on your results to get a sense of how many genes are up or down-regulated at the default 0.1 p-value cutoff.
+
+```{r}
+summary(res)
+```
+
+##Volcono Plot
+```{r}
+plot( res$log2FoldChange, -log(res$padj) )
+```
+
+>Q. Improve this plot by completing the below code, which adds color and axis labels
+
+```{r}
+mycols <- rep("black", nrow(res) )
+mycols[ abs(res$log2FoldChange) > 2 ] <- "red"
+
+inds <- (res$padj < 0.01) & (abs(res$log2FoldChange) > 2 )
+mycols[ inds ] <- "blue"
+
+plot( res$log2FoldChange, -log(res$padj), col= mycols, xlab="Log2(FoldChange)", ylab="-Log(P-value)" )
+```
+##Adding Gene Annotation
+> Q. Use the mapIDs() function multiple times to add SYMBOL, ENTREZID and GENENAME annotation to our results by completing the code below.
+
+```{r}
+library("AnnotationDbi")
+library("org.Hs.eg.db")
+
+columns(org.Hs.eg.db)
+
+res$symbol = mapIds(org.Hs.eg.db,
+                    keys= row.names(res), 
+                    keytype="ENSEMBL",
+                    column="SYMBOL",
+                    multiVals="first")
+
+res$entrez = mapIds(org.Hs.eg.db,
+                    keys= row.names(res),
+                    keytype="ENSEMBL",
+                    column="ENTREZID",
+                    multiVals="first")
+
+res$name =   mapIds(org.Hs.eg.db,
+                    keys=row.names(res),
+                    keytype="ENSEMBL",
+                    column="GENENAME",
+                    multiVals="first")
+
+head(res, 10)
+```
+
+>Q. Finally for this section let's reorder these results by adjusted p-value and save them to a CSV file in your current project directory.
+
+```{r}
+res = res[order(res$pvalue),]
+write.csv(res, file="deseq_results.csv")
+```
+
+
+
+## Section 2. Pathway Analysis
+
+```{r}
+library(pathview)
+library(gage)
+library(gageData)
+
+data(kegg.sets.hs)
+data(sigmet.idx.hs)
+
+kegg.sets.hs = kegg.sets.hs[sigmet.idx.hs]
+
+head(kegg.sets.hs, 3)
+```
+
+```{r}
+foldchanges = res$log2FoldChange
+names(foldchanges) = res$entrez
+head(foldchanges)
+```
+
+```{r}
+#Get the results
+keggres = gage(foldchanges, gsets=kegg.sets.hs)
+```
+```{r}
+attributes(keggres)
+```
+```{r}
+#Look at the first few down (less) pathways
+head(keggres$less)
+```
+
+```{r}
+pathview(gene.data=foldchanges, pathway.id="hsa04110")
+```
+![Cell Cycle Pathview on KEGG Graph](hsa04110.pathview.png)
+
+**Other Input Arguments**
+```{r}
+pathview(gene.data=foldchanges, pathway.id="hsa04110", kegg.native=FALSE)
+```
+
+
+**Let's find Top 5 Up-Regulated Pathways**
+```{r}
+## Focus on top 5 up-regulated pathways here for demo purposes only
+keggrespathways <- rownames(keggres$greater)[1:5]
+
+# Extract the 8 character long IDs part of each string
+keggresids = substr(keggrespathways, start=1, stop=8)
+keggresids
+```
+```{r}
+pathview(gene.data=foldchanges, pathway.id=keggresids, species="hsa")
+```
+
+**Plots of Pathway Figures for Top 5 Up-Regulated Pathways**
+
+![Steriod Hormone Biosythesis Pathway using KEGG Graph](hsa00140.pathview.png)
+![Lysosome Pathway using KEGG Graph](hsa04142.pathview.png)
+![JAK-STAT Signaling Pathway using KEGG Graph](hsa04630.pathview.png)
+![Hematopoietic Cell Linage Pathway using KEGG Graph](hsa04640.pathview.png)
+![Notch Pathway using KEGG Graph](hsa04330.pathview.png)
+
+
+>Q. Can you do the same procedure as above to plot the pathview figures for the top 5 down-reguled pathways?
+
+Lets find Top 5 down-regulated pathways:
+```{r}
+keggrespathways_down <- rownames(keggres$less)[1:5]
+
+keggresids_down = substr(keggrespathways_down, start=1, stop=8)
+keggresids_down
+```
+```{r}
+pathview(gene.data=foldchanges, pathway.id=keggresids_down, species="hsa")
+```
+
+**Plots of Pathway Figures for Top 5 Down-Regulated Pathways**
+
+![Cell Cycle Pathways using KEGG](hsa04110.pathview.png)
+![DNA Replication Pathway using KEGG Graph](hsa03030.pathview.png)
+![Nucleocytoplasmic Transport Pathway using KEGG Graph](hsa03013.pathview.png)
+![Homologous Recombination Pathway using KEGG Graph](hsa03440.pathview.png)
+![Oocyte Meiosis Pathway Using KEGG Graph](hsa04114.pathview.png)
+
+
+
+## Section 3. Gene Ontology (GO)
+
+```{r}
+data(go.sets.hs)
+data(go.subs.hs)
+
+# Focus on Biological Process subset of GO
+gobpsets = go.sets.hs[go.subs.hs$BP]
+
+gobpres = gage(foldchanges, gsets=gobpsets, same.dir=TRUE)
+
+lapply(gobpres, head)
+```
+
+
+##Section 4. Reactome Analysis
+
+```{r}
+sig_genes <- res[res$padj <= 0.05 & !is.na(res$padj), "symbol"]
+print(paste("Total number of significant genes:", length(sig_genes)))
+```
+
+```{r}
+write.table(sig_genes, file="significant_genes.txt", row.names=FALSE, col.names=FALSE, quote=FALSE)
+```
+
+>Q: What pathway has the most significant “Entities p-value”? Do the most significant pathways listed match your previous KEGG results? What factors could cause differences between the two methods?
+
+The pathway that has the most significant Entities p-value is the cell cycle pathway with a p-value of 1.62E-4. Despite the pathways on our KEGG results have a significant p-values, these pathways does not match with the listed significant pathways on the Reactome website. However, some of the down-regulated pathways from our KEGG results show some slight similarities, but they do not appear to be matched. Some factors that could cause difference between the two methods is gene annotation differences, meaning that different databases could have gene annotations that are updated so its possible that some genes might be assigned to different pathways. Another factor would be both databases have different and various methods to run statistical tests and thresholds which could effect significant ranking of pathways.    
+
