@@ -1,0 +1,301 @@
+---
+title: "FIND_A_GENE_PROJECT"
+author: "Pamelina Lo"
+format: docx
+---
+
+```{r}
+install.packages("bio3d")
+library(bio3d)
+```
+```{r}
+prof_data <- read.fasta("PROFDATA.fst")
+prof_matrix <- seqidentity(prof_data)
+```
+
+```{r}
+prof_matrix
+```
+
+```{r}
+attributes(prof_matrix)
+```
+
+
+```{r}
+heatmap(prof_matrix,
+        Rowv = NA, Colv = NA,  
+        labRow = prof_data$names,  
+        labCol = prof_data$names,
+        margins = c(10, 10),    
+        col = heat.colors(256))
+```
+
+
+Gene Data for Project
+```{r}
+pl_data <- read.fasta("PLDATA.fst")
+pl_matrix <- seqidentity(pl_data)
+pl_matrix
+```
+
+```{r}
+heatmap(pl_matrix,
+        Rowv = NA, Colv = NA,  
+        labRow = prof_data$names,  
+        labCol = prof_data$names,
+        margins = c(10, 10),    
+        col = heat.colors(256),
+        main="Heatmap")
+```
+
+Try to add the dentrogram/ranges on this heatmap!
+
+
+
+
+
+
+
+
+
+For question 8:
+
+Perform BLAST Search:
+
+```{r}
+install.packages("xml2")
+library(xml2)
+```
+```{r}
+# Load the XML file
+blast_xml <- read_xml("KRHHR7KG016-Alignment.xml")
+
+# Extract specific elements (e.g., hit IDs, sequence identity, and E-values)
+hit_ids <- xml_find_all(blast_xml, "//Hit_id")  # PDB IDs
+hit_def <- xml_find_all(blast_xml, "//Hit_def") # Description
+e_values <- xml_find_all(blast_xml, "//Hsp_evalue")  # E-values
+identity <- xml_find_all(blast_xml, "//Hsp_identity")  # Sequence identities
+resolutions <- xml_find_all(blast_xml,"//Hsp_hit_resolution")
+organisms <- xml_find_all(blast_xml,"//Hsp_hit_def")
+
+# Convert to a data frame
+blast_results <- data.frame(
+  pdb_id = xml_text(hit_ids),
+  description = xml_text(hit_def),
+  evalue = as.numeric(xml_text(e_values)),
+  identity = as.numeric(xml_text(identity))
+)
+
+# Display the top results
+print(blast_results[1:3, ])
+
+```
+```{r}
+install.packages("xml2")
+library(xml2)
+```
+```{r}
+# Load the XML file
+blast_xml <- read_xml("KRRAXWFV016-Alignment.xml")
+
+# Extract specific elements (e.g., hit IDs, sequence identity, and E-values)
+hit_ids <- xml_find_all(blast_xml, "//Hit_id")  # PDB IDs
+hit_def <- xml_find_all(blast_xml, "//Hit_def") # Description
+e_values <- xml_find_all(blast_xml, "//Hsp_evalue")  # E-values
+identity <- xml_find_all(blast_xml, "//Hsp_identity")  # Sequence identities
+resolutions <- xml_find_all(blast_xml,"//Hsp_hit_resolution")
+organisms <- xml_find_all(blast_xml,"//Hsp_hit_def")
+
+# Convert to a data frame
+blast_results <- data.frame(
+  pdb_id = xml_text(hit_ids),
+  description = xml_text(hit_def),
+  evalue = as.numeric(xml_text(e_values)),
+  identity = as.numeric(xml_text(identity))
+)
+
+# Display the top results
+print(blast_results[1:3, ])
+
+```
+
+
+
+
+heatmap 2
+
+```{r}
+# Load necessary libraries
+library(bio3d)
+library(pheatmap)
+
+# Step 1: Read in the aligned sequences in FASTA format
+aln_file <- "PLDATA.fst"  # replace with your actual FASTA file path
+aln <- read.fasta(aln_file)
+
+# Step 2: Calculate sequence identity matrix
+# This function computes the identity matrix for all pairs of sequences
+identity_matrix <- seqidentity(aln)
+
+# Step 3: Plot a heatmap of the identity matrix
+# You can use base R heatmap or pheatmap for better customization
+pheatmap(identity_matrix, 
+         display_numbers = TRUE,   # Display sequence identity values
+         cluster_rows = TRUE,      # Cluster rows (sequences)
+         cluster_cols = TRUE,      # Cluster columns (sequences)
+         color = colorRampPalette(c("white", "red"))(50), # Custom color palette
+         main = "Sequence Identity Heatmap")  # Title of the heatmap
+
+```
+
+
+
+
+
+
+
+To get conserved residues:
+
+```{r}
+install.packages("bio3d")
+library(bio3d)
+```
+
+```{r}
+# Change this for YOUR results dir name
+results_dir <- "test_eb761/" 
+```
+
+```{r}
+# File names for all PDB models
+pdb_files <- list.files(path=results_dir,
+                        pattern="*.pdb",
+                        full.names = TRUE)
+
+# Print our PDB file names
+basename(pdb_files)
+```
+
+```{r}
+pdbs <- pdbaln(pdb_files, fit=TRUE, exefile="msa")
+pdbs
+```
+
+```{r}
+rd <- rmsd(pdbs, fit=T)
+range(rd)
+```
+
+```{r}
+install.packages("pheatmap")
+library(pheatmap)
+
+colnames(rd) <- paste0("m",1:5)
+rownames(rd) <- paste0("m",1:5)
+pheatmap(rd)
+```
+
+```{r}
+install.packages("jsonlite")
+library(jsonlite)
+
+# Listing of all PAE JSON files
+pae_files <- list.files(path=results_dir,
+                        pattern=".*model.*\\.json",
+                        full.names = TRUE)
+```
+```{r}
+pae1 <- read_json(pae_files[1],simplifyVector = TRUE)
+pae5 <- read_json(pae_files[5],simplifyVector = TRUE)
+
+attributes(pae1)
+```
+
+```{r}
+# Per-residue pLDDT scores 
+#  same as B-factor of PDB..
+head(pae1$plddt) 
+```
+
+```{r}
+pae1$max_pae
+```
+
+```{r}
+pae5$max_pae
+```
+
+
+```{r}
+aln_file <- list.files(path=results_dir,
+                       pattern=".a3m$",
+                        full.names = TRUE)
+aln_file
+```
+```{r}
+file_path <- "test_eb761//test_eb761.a3m"
+lines <- readLines(file_path)
+if (lines[length(lines)] != "") {
+    writeLines(c(lines, ""), file_path)
+}
+
+aln <- read.fasta(file = "test_eb761//test_eb761.a3m")
+sim <- conserv(aln)
+```
+
+```{r}
+# Step 1: Load necessary libraries
+library(bio3d)
+
+# Step 2: Read the alignment in FASTA format
+aln_file <- "PLDATA.fst"  # Replace with your actual file path
+aln <- read.fasta(aln_file)
+
+# Step 3: Calculate residue conservation score
+# The 'conserv' function in bio3d calculates conservation scores (entropy)
+sim <- conserv(aln)
+
+# Step 4: Print or analyze the conservation scores
+print(sim)
+
+# Step 5: Plot the conservation scores
+# Plot the conservation scores across all residues in the alignment
+plot(sim, type = "b", xlab = "Position", ylab = "Conservation Score", 
+     main = "Residue Conservation Score")
+
+```
+
+```{r}
+# Load necessary libraries
+library(bio3d)
+
+# Step 1: Read the alignment in FASTA format
+aln_file <- "PLDATA.fst"  # Replace with your actual file path
+aln <- read.fasta(aln_file)
+
+# Step 2: Convert alignment to a matrix (if necessary)
+aln_matrix <- do.call(rbind, aln)
+
+# Step 3: Generate consensus sequence
+cons_seq <- consensus(aln, cutoff = 0.9)  # You can adjust the cutoff if needed
+
+# Step 4: Calculate conservation based on agreement with the consensus
+# Conservation score: Percentage of sequences matching the consensus residue at each position
+conservation_scores <- apply(aln_matrix, 2, function(col) {
+  consensus_residue <- cons_seq[which(names(cons_seq) == names(col))]
+  sum(col == consensus_residue, na.rm = TRUE) / length(col)  # Fraction of matches
+})
+
+# Step 5: Plot the conservation scores
+plot(conservation_scores, type = "b", xlab = "Position", ylab = "Conservation Score",
+     main = "Residue Conservation Score Based on Consensus Sequence", col = "blue")
+
+```
+
+```{r}
+cons_seq$seq
+```
+
+
+

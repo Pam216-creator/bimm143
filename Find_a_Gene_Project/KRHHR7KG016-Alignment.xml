@@ -1,0 +1,2936 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2857719</BlastOutput_query-ID>
+  <BlastOutput_query-def>Human_HBB</BlastOutput_query-def>
+  <BlastOutput_query-len>147</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857719</Iteration_query-ID>
+  <Iteration_query-def>Human_HBB</Iteration_query-def>
+  <Iteration_query-len>147</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1DXT|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1DXT|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|6KYE|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KYE|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KYE|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KYE|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KYE|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KYE|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7CUE|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7CUE|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UD7|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UD7|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UD8|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UD8|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UF6|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UF6|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UF7|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UF7|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7VDE|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7VDE|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7XGY|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7XGY|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8EGI|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8EGI|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8VYL|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8VYL|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8WJ0|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8WJ1|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8WJ2|B Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1DXT_B</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.46333e-106</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1A3N|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A3N|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A3O|B Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A3O|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1AJ9|B Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1B86|B Chain B, PROTEIN (HEMOGLOBIN; BETA CHAIN) [Homo sapiens] &gt;pdb|1B86|D Chain D, PROTEIN (HEMOGLOBIN; BETA CHAIN) [Homo sapiens] &gt;pdb|1BAB|B Chain B, HEMOGLOBIN THIONVILLE (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1BAB|D Chain D, HEMOGLOBIN THIONVILLE (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1BBB|B Chain B, HEMOGLOBIN A (CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1BBB|D Chain D, HEMOGLOBIN A (CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1BIJ|B Chain B, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1BIJ|D Chain D, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1BZ0|B Chain B, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1BZ0|D Chain D, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1BZ1|B Chain B, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1BZ1|D Chain D, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1BZZ|B Chain B, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1BZZ|D Chain D, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1CBL|A Chain A, HEMOGLOBIN BETA 4 (DEOXY) [Homo sapiens] &gt;pdb|1CBL|B Chain B, HEMOGLOBIN BETA 4 (DEOXY) [Homo sapiens] &gt;pdb|1CBL|C Chain C, HEMOGLOBIN BETA 4 (DEOXY) [Homo sapiens] &gt;pdb|1CBL|D Chain D, HEMOGLOBIN BETA 4 (DEOXY) [Homo sapiens] &gt;pdb|1CBM|A Chain A, HEMOGLOBIN BETA 4 (CARBONMONOXY) [Homo sapiens] &gt;pdb|1CBM|B Chain B, HEMOGLOBIN BETA 4 (CARBONMONOXY) [Homo sapiens] &gt;pdb|1CBM|C Chain C, HEMOGLOBIN BETA 4 (CARBONMONOXY) [Homo sapiens] &gt;pdb|1CBM|D Chain D, HEMOGLOBIN BETA 4 (CARBONMONOXY) [Homo sapiens] &gt;pdb|1CLS|B Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1CLS|D Chain D, HEMOGLOBIN [Homo sapiens] &gt;pdb|1COH|B Chain B, HEMOGLOBIN (COBALTOUS DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1COH|D Chain D, HEMOGLOBIN (COBALTOUS DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1DKE|B Chain B, HEMOGLOBIN: BETA CHAIN [Homo sapiens] &gt;pdb|1DKE|D Chain D, HEMOGLOBIN: BETA CHAIN [Homo sapiens] &gt;pdb|1FN3|B Chain B, HEMOGLOBIN BETA CHAIN [Homo sapiens] &gt;pdb|1FN3|D Chain D, HEMOGLOBIN BETA CHAIN [Homo sapiens] &gt;pdb|1G9V|B Chain B, HEMOGLOBIN BETA CHAIN [Homo sapiens] &gt;pdb|1G9V|D Chain D, HEMOGLOBIN BETA CHAIN [Homo sapiens] &gt;pdb|1GZX|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|1GZX|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|1HAB|B Chain B, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1HAB|D Chain D, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1HAC|B Chain B, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1HAC|D Chain D, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1HBB|B Chain B, HEMOGLOBIN A (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HBB|D Chain D, HEMOGLOBIN A (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HCO|B Chain B, HEMOGLOBIN (CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGA|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGA|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGB|B Chain B, HEMOGLOBIN (AQUO MET) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGB|D Chain D, HEMOGLOBIN (AQUO MET) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGC|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HGC|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HHO|B Chain B, HEMOGLOBIN A (OXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1IRD|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1J3Y|B Chain B, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Y|D Chain D, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Y|F Chain F, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Y|H Chain H, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Z|B Chain B, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Z|D Chain D, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Z|F Chain F, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J3Z|H Chain H, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J40|B Chain B, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J40|D Chain D, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J40|F Chain F, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J40|H Chain H, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J41|B Chain B, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J41|D Chain D, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J41|F Chain F, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1J41|H Chain H, Hemoglobin beta Chain [Homo sapiens] &gt;pdb|1JY7|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1JY7|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1JY7|Q Chain Q, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1JY7|S Chain S, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1JY7|V Chain V, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1JY7|X Chain X, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1K0Y|B Chain B, hemoglobin beta chain [Homo sapiens] &gt;pdb|1K0Y|D Chain D, hemoglobin beta chain [Homo sapiens] &gt;pdb|1KD2|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1KD2|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFL|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFL|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFL|Q Chain Q, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFL|S Chain S, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFQ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFT|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFV|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFY|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LFZ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1LJW|B Chain B, hemoglobin beta chain [Homo sapiens] &gt;pdb|1MKO|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1MKO|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1NIH|B Chain B, HEMOGLOBIN (FERROUS CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1NIH|D Chain D, HEMOGLOBIN (FERROUS CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1QSH|B Chain B, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1QSH|D Chain D, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1QSI|B Chain B, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1QSI|D Chain D, PROTEIN (HEMOGLOBIN BETA CHAIN) [Homo sapiens] &gt;pdb|1QXD|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1QXD|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1QXE|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1QXE|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1R1X|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1R1Y|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1R1Y|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RPS|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RPS|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RQ3|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RQ3|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RVW|B Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1SDK|B Chain B, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1SDK|D Chain D, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1SDL|B Chain B, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1SDL|D Chain D, HEMOGLOBIN A [Homo sapiens] &gt;pdb|1THB|B Chain B, HEMOGLOBIN A (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1THB|D Chain D, HEMOGLOBIN A (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1UIW|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1UIW|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1UIW|F Chain F, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1UIW|H Chain H, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1VWT|B Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1VWT|D Chain D, HEMOGLOBIN [Homo sapiens] &gt;pdb|1XXT|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XXT|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XY0|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XY0|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XYE|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XYE|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ2|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ2|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ4|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ4|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ5|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ5|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ7|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZ7|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZU|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZU|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZV|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1XZV|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y09|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y09|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0A|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0A|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0C|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0C|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0D|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0D|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y8W|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y8W|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YDZ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YDZ|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YH9|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YH9|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YHE|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YHE|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YHR|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YHR|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YZI|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|2D5Z|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2D5Z|D Chain D, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2D60|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2D60|D Chain D, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2DN1|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2DN2|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2DN2|D Chain D, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2DN3|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2DXM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2DXM|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2H35|B Chain B, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2H35|D Chain D, Hemoglobin beta subunit [Homo sapiens] &gt;pdb|2HBC|B Chain B, HEMOGLOBIN A (ETHYL ISOCYANIDE) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HBD|B Chain B, HEMOGLOBIN A (METHYL ISOCYANIDE) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HBE|B Chain B, HEMOGLOBIN A (N-BUTYL ISOCYANIDE) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HBF|B Chain B, HEMOGLOBIN A (N-PROPYL ISOCYANIDE) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HCO|B Chain B, HEMOGLOBIN (CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HHB|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HHB|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HHD|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HHD|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2M6Z|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2M6Z|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2W6V|B Chain B, HEMOGLOBIN SUBUNIT BETA [Homo sapiens] &gt;pdb|2W6V|D Chain D, HEMOGLOBIN SUBUNIT BETA [Homo sapiens] &gt;pdb|3B75|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3B75|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3B75|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3B75|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3B75|T Chain T, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3D17|B Chain B, Hemoglobin subunit beta [unidentified] &gt;pdb|3D17|D Chain D, Hemoglobin subunit beta [unidentified] &gt;pdb|3D7O|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3HHB|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|3HHB|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|3HXN|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3HXN|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3IC0|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3IC0|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3IC2|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3IC2|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3KMF|C Chain C, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3KMF|G Chain G, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3NMM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3NMM|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3ODQ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3ODQ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3ONZ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3OO4|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3OO5|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3P5Q|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3QJB|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3QJD|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3QJD|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3R5I|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3R5I|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3SZK|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3SZK|E Chain E, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3WHM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3WHM|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4FC3|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4HHB|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4HHB|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4IJ2|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4IJ2|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4L7Y|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4L7Y|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4M4A|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4M4B|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4MQC|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4MQH|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7N|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7O|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N7P|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4N8T|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4NI0|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4NI1|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4ROL|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4ROL|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4ROM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4ROM|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|1 Chain 1, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|G Chain G, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|Q Chain Q, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4WJG|V Chain V, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4X0L|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4XS0|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5EE4|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5EE4|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5HY8|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5HY8|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5HY8|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5HY8|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5HY8|T Chain T, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KDQ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KDQ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KSI|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KSI|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KSJ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5KSJ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5NI1|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5NI1|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5UCU|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5URC|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5URC|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5VMM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5VMM|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5WOG|C Chain C, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5WOG|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5WOH|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5WOH|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2R|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2S|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2T|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|J Chain J, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5X2U|L Chain L, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BNR|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BNR|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BWP|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BWP|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BWU|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6DI4|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6DI4|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6FQF|A Chain A, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6FQF|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6FQF|C Chain C, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6FQF|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6HK2|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6HK2|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KA9|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KA9|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KA9|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KA9|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAE|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAE|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAE|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAE|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAH|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAH|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAH|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAH|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAI|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAI|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAI|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAI|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAS|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAS|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAT|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAT|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAU|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAU|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAV|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAV|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5X|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5X|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5Y|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5Y|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCW|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCW|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCW|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCW|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCX|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCX|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCX|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6LCX|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6TB2|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XD9|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XD9|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XDT|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XDT|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XE7|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6XE7|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY3|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY3|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY3|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY3|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY4|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY4|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY4|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7DY4|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JJQ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JJQ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JXZ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JXZ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY0|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY0|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY1|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY1|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY3|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7JY3|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7PCF|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7PCH|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7PCH|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7PCQ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7PCQ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8DOV|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8DOV|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8DOV|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8DOV|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDM|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDM|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDN|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDN|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1A3N_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.0538e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|7K4M|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7K4M|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7K4M|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7K4M|H Chain H, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7K4M|J Chain J, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>7K4M_B</Hit_accession>
+  <Hit_len>148</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>1.42134e-105</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MVHLTPVEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>MVHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|2YRS|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2YRS|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2YRS|K Chain K, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|2YRS|O Chain O, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>2YRS_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.516</Hsp_bit-score>
+      <Hsp_score>763</Hsp_score>
+      <Hsp_evalue>2.03596e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKQFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGK+FTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1A0U|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A0U|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A0Z|B Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A0Z|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1DXU|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1DXU|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1GLI|B Chain B, DEOXYHEMOGLOBIN [Homo sapiens] &gt;pdb|1GLI|D Chain D, DEOXYHEMOGLOBIN [Homo sapiens] &gt;pdb|1J7S|B Chain B, Hemoglobin [Homo sapiens] &gt;pdb|1J7S|D Chain D, Hemoglobin [Homo sapiens] &gt;pdb|1O1L|B Chain B, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1L|D Chain D, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1N|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1O1N|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0T|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0T|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0W|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y0W|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1A0U_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>2.98955e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|4MQG|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|4MQI|B Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>4MQG_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>2.98955e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKMLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK+LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1HDB|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (DEOXY) BETA-V67T [Homo sapiens] &gt;pdb|1HDB|D Chain D, HEMOGLOBIN (DEOXY) BETA-V67T [Homo sapiens]</Hit_def>
+  <Hit_accession>1HDB_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>3.08963e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKTLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|1DXV|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1DXV|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1DXV_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>3.19306e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|5E29|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5E29|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5JDO|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6BB5|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6HAL|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6HAL|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AET|BBB Chain BBB, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AET|DDD Chain DDD, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AEU|BBB Chain BBB, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AEU|DDD Chain DDD, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AEV|BBB Chain BBB, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7AEV|DDD Chain DDD, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>5E29_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>3.51971e-105</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1NQP|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1NQP|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YVQ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YVQ|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YVT|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|3DUT|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3DUT|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1NQP_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>4.29448e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGKALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGG+ALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1K1K|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN BETA CHAIN [Homo sapiens] &gt;pdb|1M9P|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1M9P|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YFF|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YFF|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YFF|F Chain F, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YFF|H Chain H, Hemoglobin beta chain [Homo sapiens] &gt;pdb|3S65|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3S65|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3S66|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAO|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAP|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAQ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6KAR|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5V|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6L5W|B Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1K1K_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.36</Hsp_bit-score>
+      <Hsp_score>760</Hsp_score>
+      <Hsp_evalue>4.29448e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPKEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTP+EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1Y85|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y85|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y85_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>7.75745e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|1Y22|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y22|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE0|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE0|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y22_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>8.38847e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLAVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLL VYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1O1O|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1O1O|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1O1O_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.59</Hsp_bit-score>
+      <Hsp_score>758</Hsp_score>
+      <Hsp_evalue>8.57465e-105</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKLLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK+LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1Y35|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y35|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE2|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE2|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y35_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.24533e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVFPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVV+PWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1Y5F|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y5F|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y5F_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.40514e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKAHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDK HVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1A00|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A00|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1Y46|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y46|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEQ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEQ|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1A00_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.43632e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPYTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP+TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|1HBS|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HBS|D Chain D, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HBS|F Chain F, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HBS|H Chain H, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1NEJ|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1NEJ|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|2HBS|B Chain B, HEMOGLOBIN S (DEOXY), BETA CHAIN [Homo sapiens] &gt;pdb|2HBS|D Chain D, HEMOGLOBIN S (DEOXY), BETA CHAIN [Homo sapiens] &gt;pdb|2HBS|F Chain F, HEMOGLOBIN S (DEOXY), BETA CHAIN [Homo sapiens] &gt;pdb|2HBS|H Chain H, HEMOGLOBIN S (DEOXY), BETA CHAIN [Homo sapiens] &gt;pdb|3W4U|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3W4U|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3W4U|F Chain F, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5E6E|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5E83|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5E83|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5U3I|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5U3I|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5UFJ|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|5UFJ|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UVB|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|7UVB|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1HBS_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>1.69338e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPVEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|5SW7|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>5SW7_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.80865e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLDGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNL GTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1ABW|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN-BASED BLOOD SUBSTITUTE [Homo sapiens] &gt;pdb|1ABW|D Chain D, HEMOGLOBIN-BASED BLOOD SUBSTITUTE [Homo sapiens] &gt;pdb|1ABY|B Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1ABY|D Chain D, HEMOGLOBIN [Homo sapiens] &gt;pdb|1C7B|B Chain B, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens] &gt;pdb|1C7B|D Chain D, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens] &gt;pdb|1C7C|B Chain B, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens] &gt;pdb|1C7C|D Chain D, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens] &gt;pdb|1C7D|B Chain B, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens] &gt;pdb|1C7D|D Chain D, PROTEIN (DEOXYHEMOGLOBIN (BETA CHAIN)) [Homo sapiens]</Hit_def>
+  <Hit_accession>1ABW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>2.08603e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGKVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLG VLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1CMY|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN YPSILANTI (CARBONMONOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1CMY|D Chain D, HEMOGLOBIN YPSILANTI (CARBONMONOXY) (BETA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1CMY_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>2.10905e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVYPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV PENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1Y7C|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y7C|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YIH|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YIH|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y7C_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.48649e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDAENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD ENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1Y45|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y45|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEN|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEN|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y45_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.48649e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYAWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVY WTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|6HBW|B</Hit_id>
+  <Hit_def>Chain B, PROTEIN (HEMOGLOBIN BETA) [Homo sapiens] &gt;pdb|6HBW|D Chain D, PROTEIN (HEMOGLOBIN BETA) [Homo sapiens]</Hit_def>
+  <Hit_accession>6HBW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.56973e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPWEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTP EKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|1O1I|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1J|B Chain B, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1J|D Chain D, Hemoglobin Beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1O1I_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.62676e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLWGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRL GNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|5JDO|F</Hit_id>
+  <Hit_def>Chain F, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>5JDO_F</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.67782e-104</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_qseq>
+      <Hsp_hseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_hseq>
+      <Hsp_midline>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1Y2Z|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y2Z|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y2Z_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.68506e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVGYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLV YPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|3QJC|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3QJE|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3QJE|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>3QJC_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.80557e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKALGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1HBA|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN ROTHSCHILD (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|1HBA|D Chain D, HEMOGLOBIN ROTHSCHILD (DEOXY) (BETA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1HBA_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>2.96384e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPRTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|2HHE|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens] &gt;pdb|2HHE|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>2HHE_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>3.0589e-104</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1BUW|B</Hit_id>
+  <Hit_def>Chain B, PROTEIN (HEMOGLOBIN) [Homo sapiens] &gt;pdb|1BUW|D Chain D, PROTEIN (HEMOGLOBIN) [Homo sapiens] &gt;pdb|1RQ4|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RQ4|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|3WCP|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|3WCP|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6NQ5|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDK|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDK|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDL|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|8FDL|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>1BUW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>3.30766e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHXDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1Y5J|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y5J|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YGF|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YGF|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y5J_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.434</Hsp_bit-score>
+      <Hsp_score>755</Hsp_score>
+      <Hsp_evalue>3.41839e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLAVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKL VDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1Y4R|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4R|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y4R_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.45611e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESAGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFES GDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|1Y4Q|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4Q|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y4Q_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.45611e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFAESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRF ESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|3NL7|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>3NL7_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.49425e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAWGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|1Y4V|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4V|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y4V_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.65108e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|1Y5K|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y5K|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y5K_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.7733e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVAPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHV PENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|1O1K|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1K|D Chain D, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1M|B Chain B, Hemoglobin Beta chain [Homo sapiens] &gt;pdb|1O1M|D Chain D, Hemoglobin Beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1O1K_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.85704e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKWLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKK LGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1Y7Z|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y7Z|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y7Z_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.89961e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGAVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLG VLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|1Y7G|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y7G|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y7G_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>3.89961e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPEAFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE FRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|1Y31|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y31|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE1|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YE1|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y31_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.049</Hsp_bit-score>
+      <Hsp_score>754</Hsp_score>
+      <Hsp_evalue>4.64823e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVAPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVV PWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|1GBV|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1GBV|D Chain D, HEMOGLOBIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1GBV_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.664</Hsp_bit-score>
+      <Hsp_score>753</Hsp_score>
+      <Hsp_evalue>5.30258e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVGVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLV VLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1Y7D|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y7D|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y7D_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>7.05375e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDGENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVD ENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|1A01|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A01|D Chain D, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1Y4F|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4F|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEO|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEO|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YIE|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YIE|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1A01_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>7.5339e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPATQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1J7W|B</Hit_id>
+  <Hit_def>Chain B, hemoglobin [Homo sapiens] &gt;pdb|1J7W|D Chain D, hemoglobin [Homo sapiens] &gt;pdb|1J7Y|B Chain B, Hemoglobin [Homo sapiens] &gt;pdb|1J7Y|D Chain D, Hemoglobin [Homo sapiens] &gt;pdb|1QI8|B Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1QI8|D Chain D, HEMOGLOBIN [Homo sapiens] &gt;pdb|2W72|B Chain B, HUMAN HEMOGLOBIN A [Homo sapiens] &gt;pdb|2W72|D Chain D, HUMAN HEMOGLOBIN A [Homo sapiens]</Hit_def>
+  <Hit_accession>1J7W_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>8.31609e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEAYGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAQGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEA GRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKA GKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|1Y83|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y83|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y83_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>8.88217e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKGH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHK H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|1RQA|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1RQA|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4P|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4P|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEV|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEV|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YGD|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YGD|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1RQA_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>294.278</Hsp_bit-score>
+      <Hsp_score>752</Hsp_score>
+      <Hsp_evalue>9.59147e-104</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPETQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|1Y4G|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4G|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEU|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YEU|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y4G_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.05873e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPGTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|1Y4B|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1Y4B|D Chain D, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YG5|B Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1YG5|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1Y4B_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.893</Hsp_bit-score>
+      <Hsp_score>751</Hsp_score>
+      <Hsp_evalue>1.31861e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPHTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYP TQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1O1P|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Homo sapiens] &gt;pdb|1O1P|D Chain D, Hemoglobin beta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1O1P_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.123</Hsp_bit-score>
+      <Hsp_score>749</Hsp_score>
+      <Hsp_evalue>2.72089e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGKVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>+HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLG VLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>pdb|6NBC|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6NBC|D Chain D, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6NBD|B Chain B, Hemoglobin subunit beta [Homo sapiens] &gt;pdb|6NBD|D Chain D, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>6NBC_B</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>5.90797e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>pdb|1GBU|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN [Homo sapiens] &gt;pdb|1GBU|D Chain D, HEMOGLOBIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1GBU_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.967</Hsp_bit-score>
+      <Hsp_score>746</Hsp_score>
+      <Hsp_evalue>5.93109e-103</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHADKLHVDPENFRLLGNVLVGVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELH DKLHVDPENFRLLGNVLV VLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>pdb|5HU6|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Homo sapiens]</Hit_def>
+  <Hit_accession>5HU6_B</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.115</Hsp_bit-score>
+      <Hsp_score>736</Hsp_score>
+      <Hsp_evalue>1.9327e-101</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>141</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALA</Hsp_qseq>
+      <Hsp_hseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALA</Hsp_hseq>
+      <Hsp_midline>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>pdb|1SHR|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin delta chain [Homo sapiens] &gt;pdb|1SHR|D Chain D, Hemoglobin delta chain [Homo sapiens] &gt;pdb|1SI4|B Chain B, Hemoglobin delta chain [Homo sapiens] &gt;pdb|1SI4|D Chain D, Hemoglobin delta chain [Homo sapiens]</Hit_def>
+  <Hit_accession>1SHR_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.567</Hsp_bit-score>
+      <Hsp_score>719</Hsp_score>
+      <Hsp_evalue>8.04389e-99</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKTAVNALWGKVNVDAVGGEALGRLLVVYPWTQRFFESFGDLSSPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFSQLSELHCDKLHVDPENFRLLGNVLVCVLARNFGKEFTPQMQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLTPEEK+AV ALWGKVNVD VGGEALGRLLVVYPWTQRFFESFGDLS+PDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTF+ LSELHCDKLHVDPENFRLLGNVLVCVLA +FGKEFTP +QAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>pdb|3LQD|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Lepus europaeus] &gt;pdb|3LQD|D Chain D, Hemoglobin subunit beta [Lepus europaeus]</Hit_def>
+  <Hit_accession>3LQD_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>274.248</Hsp_bit-score>
+      <Hsp_score>700</Hsp_score>
+      <Hsp_evalue>7.82682e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSGEEKSAVTALWGKVNVEEVGGETLGRLLVVYPWTQRFFESFGDLSTASAVMGNPKVKAHGKKVLAAFSEGLSHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEKSAVTALWGKVNV+EVGGE LGRLLVVYPWTQRFFESFGDLST  AVMGNPKVKAHGKKVL AFS+GL+HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLV VL+HHFGKEFTP VQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>pdb|2RAO|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta-1/2 [Oryctolagus cuniculus] &gt;pdb|2RAO|D Chain D, Hemoglobin subunit beta-1/2 [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>2RAO_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>273.863</Hsp_bit-score>
+      <Hsp_score>699</Hsp_score>
+      <Hsp_evalue>8.73455e-96</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSSEEKSAVTALWGKVNVEEVGGEALGRLLVVYPWTQRFFESFGDLSSANAVMNNPKVKAHGKKVLAAFSEGLSHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVIVLSHHFGKEFTPQVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEKSAVTALWGKVNV+EVGGEALGRLLVVYPWTQRFFESFGDLS+ +AVM NPKVKAHGKKVL AFS+GL+HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLV VL+HHFGKEFTP VQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>pdb|1FHJ|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Chrysocyon brachyurus] &gt;pdb|1FHJ|D Chain D, HEMOGLOBIN (BETA CHAIN) [Chrysocyon brachyurus] &gt;pdb|2QLS|B Chain B, Hemoglobin subunit beta [Canis lupus familiaris] &gt;pdb|2QLS|D Chain D, Hemoglobin subunit beta [Canis lupus familiaris] &gt;pdb|3GOU|B Chain B, Hemoglobin subunit beta [Canis lupus familiaris] &gt;pdb|3GOU|D Chain D, Hemoglobin subunit beta [Canis lupus familiaris] &gt;pdb|3PEL|B Chain B, Hemoglobin subunit beta [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>1FHJ_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>4.57956e-95</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTAEEKSLVSGLWGKVNVDEVGGEALGRLLIVYPWTQRFFDSFGDLSTPDAVMSNAKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT EEKS V+ LWGKVNVDEVGGEALGRLL+VYPWTQRFF+SFGDLSTPDAVM N KVKAHGKKVL +FSDGL +LDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGKEFTP VQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>pdb|2B7H|B</Hit_id>
+  <Hit_def>Chain B, hemoglobin beta chain [Cerdocyon thous] &gt;pdb|2B7H|D Chain D, hemoglobin beta chain [Cerdocyon thous]</Hit_def>
+  <Hit_accession>2B7H_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.626</Hsp_bit-score>
+      <Hsp_score>688</Hsp_score>
+      <Hsp_evalue>4.58713e-94</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTAEEKSLVSGLWAKVNVDEVGGEALGRLLIVYPWTQRFFDSFGDLSTPDSVMSNAKVKAHGKKVLNSFSDGLKNLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT EEKS V+ LW KVNVDEVGGEALGRLL+VYPWTQRFF+SFGDLSTPD+VM N KVKAHGKKVL +FSDGL +LDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGKEFTP VQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>pdb|3FH9|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Pteropus giganteus]</Hit_def>
+  <Hit_accession>3FH9_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>268.47</Hsp_bit-score>
+      <Hsp_score>685</Hsp_score>
+      <Hsp_evalue>1.5336e-93</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSGEEKAAVTGLWGKVKVDEVGGEALGRLLVVYPWTQRFFDSFGDLSSASAVMGNPKVKAHGKKVLDSFSEGLQHLDNLKGTFAKLSELHCDKLHVDPENFRLLGNVLVCVLARHFGKEFTPQVQAAYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEK+AVT LWGKV VDEVGGEALGRLLVVYPWTQRFF+SFGDLS+  AVMGNPKVKAHGKKVL +FS+GL HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLVCVLA HFGKEFTP VQAAYQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>pdb|4YU3|B</Hit_id>
+  <Hit_def>Chain B, hemoglobin [Helogale parvula] &gt;pdb|4YU4|B Chain B, hemoglobin [Helogale parvula] &gt;pdb|4YU4|D Chain D, hemoglobin [Helogale parvula]</Hit_def>
+  <Hit_accession>4YU3_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.388</Hsp_bit-score>
+      <Hsp_score>677</Hsp_score>
+      <Hsp_evalue>2.62942e-92</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTAEEKAHVSGLWGKVNTEEVGGEALGRLLVVYPWTQRFFETFGDLSSANAIMNNPKVKAHGKKVLSSFSDGLKNLDNLKGTFAALSELHCDKLHVDPENFKLLGNVLVCVLAHHFGKEFTPQVQAAYQKIVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT EEK+ V+ LWGKVN +EVGGEALGRLLVVYPWTQRFFE+FGDLS+ +A+M NPKVKAHGKKVL +FSDGL +LDNLKGTFA LSELHCDKLHVDPENF+LLGNVLVCVLAHHFGKEFTP VQAAYQK+VAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>pdb|1QPW|B</Hit_id>
+  <Hit_def>Chain B, PORCINE HEMOGLOBIN (BETA SUBUNIT) [Sus scrofa] &gt;pdb|1QPW|D Chain D, PORCINE HEMOGLOBIN (BETA SUBUNIT) [Sus scrofa] &gt;pdb|2PGH|B Chain B, HEMOGLOBIN (AQUO MET) (BETA CHAIN) [Sus scrofa] &gt;pdb|2PGH|D Chain D, HEMOGLOBIN (AQUO MET) (BETA CHAIN) [Sus scrofa]</Hit_def>
+  <Hit_accession>1QPW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>2.00913e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSAEEKEAVLGLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSNADAVMGNPKVKAHGKKVLQSFSDGLKHLDNLKGTFAKLSELHCDQLHVDPENFRLLGNVIVVVLARRLGHDFNPDVQAAFQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEK AV  LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS  DAVMGNPKVKAHGKKVL +FSDGL HLDNLKGTFA LSELHCD+LHVDPENFRLLGNV+V VLA   G +F P VQAA+QKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>pdb|4F4O|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Sus scrofa] &gt;pdb|4F4O|E Chain E, Hemoglobin subunit beta [Sus scrofa] &gt;pdb|4F4O|H Chain H, Hemoglobin subunit beta [Sus scrofa] &gt;pdb|4F4O|K Chain K, Hemoglobin subunit beta [Sus scrofa]</Hit_def>
+  <Hit_accession>4F4O_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.373</Hsp_bit-score>
+      <Hsp_score>651</Hsp_score>
+      <Hsp_evalue>2.09925e-88</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSAEEKEAVLGLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSNADAVMGNPKVKAHGKKVLQSFSDGLKHLDNLKGTFAKLSELHCDQLHVDPENFRLLGNVIVVVLARRLGHDFNPNVQAAFQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEK AV  LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS  DAVMGNPKVKAHGKKVL +FSDGL HLDNLKGTFA LSELHCD+LHVDPENFRLLGNV+V VLA   G +F P VQAA+QKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>pdb|3D4X|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3D4X|D Chain D, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQP|B Chain B, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQP|D Chain D, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQR|B Chain B, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQR|D Chain D, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQR|F Chain F, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GQR|H Chain H, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GYS|B Chain B, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GYS|D Chain D, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GYS|F Chain F, Hemoglobin subunit beta-A/B [Felis catus] &gt;pdb|3GYS|H Chain H, Hemoglobin subunit beta-A/B [Felis catus]</Hit_def>
+  <Hit_accession>3D4X_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>1.66782e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKGLVNGLWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSSADAIMSNAKVKAHGKKVLNSFSDGLKNIDDLKGAFAKLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGHDFNPQVQAAFQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>LT EEK  V  LWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLS+ DA+M N KVKAHGKKVL +FSDGL ++D+LKG FA LSELHCDKLHVDPENFRLLGNVLVCVLAHHFG +F P VQAA+QKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>pdb|3DHT|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta-1 [Rattus norvegicus] &gt;pdb|3HF4|B Chain B, Hemoglobin subunit beta-1 [Rattus norvegicus] &gt;pdb|3HF4|F Chain F, Hemoglobin subunit beta-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>3DHT_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>4.94923e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTDAEKAAVNGLWGKVNPDDVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNPKVKAHGKKVINAFNDGLKHLDNLKGTFAHLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKEFTPCAQAAFQKVVAGVASALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EK+AV  LWGKVN D+VGGEALGRLLVVYPWTQR+F+SFGDLS+  A+MGNPKVKAHGKKV+ AF+DGL HLDNLKGTFA LSELHCDKLHVDPENFRLLGN++V VL HH GKEFTP  QAA+QKVVAGVA+ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>pdb|3HRW|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta-1 [Mus musculus] &gt;pdb|3HRW|D Chain D, Hemoglobin subunit beta-1 [Mus musculus]</Hit_def>
+  <Hit_accession>3HRW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>6.58257e-86</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTDAEKAAVSCLWGKVNSDEVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNAKVKAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVATALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EK+AV+ LWGKVN DEVGGEALGRLLVVYPWTQR+F+SFGDLS+  A+MGN KVKAHGKKV+ AF+DGL HLD+LKGTFA+LSELHCDKLHVDPENFRLLGN++V VL HH GK+FTP  QAA+QKVVAGVA ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>pdb|2DHB|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Equus caballus]</Hit_def>
+  <Hit_accession>2DHB_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>247.284</Hsp_bit-score>
+      <Hsp_score>630</Hsp_score>
+      <Hsp_evalue>2.95814e-85</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VQLSGEEKAAVLALWDKVNEEEVGGEALGRLLVVYPWTQRFFDSFGDLSNPGAVMGNPKVKAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLLGNVLALVVARHFGKDFTPELQASYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>V L+ EEK+AV ALW KVN +EVGGEALGRLLVVYPWTQRFF+SFGDLS P AVMGNPKVKAHGKKVL +F +G+ HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVL  V+A HFGK+FTP +QA+YQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>pdb|1CH4|A</Hit_id>
+  <Hit_def>Chain A, MODULE-SUBSTITUTED CHIMERA HEMOGLOBIN BETA-ALPHA [Homo sapiens] &gt;pdb|1CH4|B Chain B, MODULE-SUBSTITUTED CHIMERA HEMOGLOBIN BETA-ALPHA [Homo sapiens] &gt;pdb|1CH4|C Chain C, MODULE-SUBSTITUTED CHIMERA HEMOGLOBIN BETA-ALPHA [Homo sapiens] &gt;pdb|1CH4|D Chain D, MODULE-SUBSTITUTED CHIMERA HEMOGLOBIN BETA-ALPHA [Homo sapiens]</Hit_def>
+  <Hit_accession>1CH4_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>244.588</Hsp_bit-score>
+      <Hsp_score>623</Hsp_score>
+      <Hsp_evalue>4.3458e-84</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKVLASVSTVLTSKYR</Hsp_hseq>
+      <Hsp_midline>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKL VDP NF+LL + L+  LA H   EFTP V A+  KV+A V+  L  KY </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>pdb|4H2L|B</Hit_id>
+  <Hit_def>Chain B, Beta globin [Peromyscus maniculatus]</Hit_def>
+  <Hit_accession>4H2L_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>1.91035e-83</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTDAEKALVTGLWGKVKPEEIGGEALGRLLAVYPWTQRFFDSFGDLSSASAIMGNAKVKAHGKKVIDSFSEGLKHLDNLKGTFASLSELHCDKLHVDPENFKLLGNMIVIVMAHHLGKDFTPAAQSAYQKVVSGVATALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EK+ VT LWGKV  +E+GGEALGRLL VYPWTQRFF+SFGDLS+  A+MGN KVKAHGKKV+ +FS+GL HLDNLKGTFA+LSELHCDKLHVDPENF+LLGN++V V+AHH GK+FTP  Q+AYQKVV+GVA ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>pdb|5KER|B</Hit_id>
+  <Hit_def>Chain B, Beta globin [Peromyscus maniculatus] &gt;pdb|5KER|D Chain D, Beta globin [Peromyscus maniculatus] &gt;pdb|5KER|F Chain F, Beta globin [Peromyscus maniculatus] &gt;pdb|5KER|H Chain H, Beta globin [Peromyscus maniculatus]</Hit_def>
+  <Hit_accession>5KER_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>240.736</Hsp_bit-score>
+      <Hsp_score>613</Hsp_score>
+      <Hsp_evalue>1.34569e-82</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTDAEKALVTGLWGKVKPEEIGGEALGRLLAVYPWTQRFFDSFGDLSSASAIMGNAKVKGHGKKVIDSFGEGLKHLDNLKGTFASLSELHCDKLHVDPENFKLLGNMIVIVMAHHLGKDFTPAAQAAYQKVVAGVATALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EK+ VT LWGKV  +E+GGEALGRLL VYPWTQRFF+SFGDLS+  A+MGN KVK HGKKV+ +F +GL HLDNLKGTFA+LSELHCDKLHVDPENF+LLGN++V V+AHH GK+FTP  QAAYQKVVAGVA ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>pdb|1A9W|E</Hit_id>
+  <Hit_def>Chain E, HEMOGLOBIN (BETA CHAIN) [Homo sapiens] &gt;pdb|1A9W|F Chain F, HEMOGLOBIN (BETA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1A9W_E</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>1.33165e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHFTAEEKAAVTSLWSKMNVEEAGGEALGRLLVVYPWTQRFFDSFGNLSSPSAILGNPKVKAHGKKVLTSFGDAIKNMDNLKPAFAKLSELHCDKLHVDPENFKLLGNVMVIILATHFGKEFTPEVQAAWQKLVSAVAIALAHKYH</Hsp_hseq>
+      <Hsp_midline>VH T EEK+AVT+LW K+NV+E GGEALGRLLVVYPWTQRFF+SFG+LS+P A++GNPKVKAHGKKVL +F D + ++DNLK  FA LSELHCDKLHVDPENF+LLGNV+V +LA HFGKEFTP VQAA+QK+V+ VA ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>pdb|3VRE|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta/delta hybrid [Mammuthus primigenius] &gt;pdb|3VRE|D Chain D, Hemoglobin subunit beta/delta hybrid [Mammuthus primigenius] &gt;pdb|3VRF|B Chain B, Hemoglobin subunit beta/delta hybrid [Mammuthus primigenius] &gt;pdb|3VRG|B Chain B, Hemoglobin subunit beta/delta hybrid [Mammuthus primigenius]</Hit_def>
+  <Hit_accession>3VRE_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>238.039</Hsp_bit-score>
+      <Hsp_score>606</Hsp_score>
+      <Hsp_evalue>1.77102e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VNLTAAEKTQVANLWGKVNVKELGGEALSRLLVVYPWTRRFFEHFGDLSTADAVLHNAKVLAHGEKVLTSFGEGLKHLDNLKGTFSDLSELHCDKLHVDPQNFRLLGNVLVIVLARHFGKEFTPDVQAAYEKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>V+LT  EK+ V  LWGKVNV E+GGEAL RLLVVYPWT+RFFE FGDLST DAV+ N KV AHG+KVL +F +GL HLDNLKGTF+ LSELHCDKLHVDP+NFRLLGNVLV VLA HFGKEFTP VQAAY+KVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>pdb|5EUI|B</Hit_id>
+  <Hit_def>Chain B, HBB protein [Ochotona princeps]</Hit_def>
+  <Hit_accession>5EUI_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.498</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>5.91724e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSGEEKAAVTALWGKVNVDEVGGETLGRLLVVYPWTQRFFETFGDLSSASAVMGNAKVKAHGKKVMNAFSEGLHHLDNLKGTFAKLSELHCDKLHVDPENFKLLGNVLVVVLSHHLGGEFTPQAQAAWQKVVSGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHL+ EEK+AVTALWGKVNVDEVGGE LGRLLVVYPWTQRFFE+FGDLS+  AVMGN KVKAHGKKV+ AFS+GL HLDNLKGTFA LSELHCDKLHVDPENF+LLGNVLV VL+HH G EFTP  QAA+QKVV+GVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>pdb|4MQJ|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQJ|D Chain D, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQJ|F Chain F, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQJ|H Chain H, Hemoglobin subunit gamma-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>4MQJ_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>8.49738e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH</Hsp_hseq>
+      <Hsp_midline>VH T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVKAHGKKVL +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP VQA++QK+V GVA+AL+ +YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>pdb|3CY5|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Bubalus bubalis] &gt;pdb|3CY5|D Chain D, Hemoglobin subunit beta [Bubalus bubalis]</Hit_def>
+  <Hit_accession>3CY5_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.113</Hsp_bit-score>
+      <Hsp_score>601</Hsp_score>
+      <Hsp_evalue>8.68152e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTAFWGKVHVDEVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARHFGKEFTPVLQADFQKVVAGVANALAHRYH</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVTA WGKV+VDEVGGEALGRLLVVYPWTQRFFESFGDLST DAVM NPKVKAHGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP +QA +QKVVAGVANALAH+YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>pdb|7QU4|G</Hit_id>
+  <Hit_def>Chain G, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|7QU4|H Chain H, Hemoglobin subunit gamma-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>7QU4_G</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>1.48727e-80</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>128</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>147</Hsp_align-len>
+      <Hsp_qseq>MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>MGHFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH</Hsp_hseq>
+      <Hsp_midline>M H T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVKAHGKKVL +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP VQA++QK+V GVA+AL+ +YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>pdb|3GDJ|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Camelus dromedarius] &gt;pdb|3GDJ|D Chain D, Hemoglobin subunit beta [Camelus dromedarius]</Hit_def>
+  <Hit_accession>3GDJ_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.572</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>3.49662e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLSGDEKNAVHGLWSKVKVDEVGGEALGRLLVVYPWTRRFFESFGDLSTADAVMNNPKVKAHGSKVLNSFGDGLNHLDNLKGTYAKLSELHCDKLHVDPENFRLLGNVLVVVLARHFGKEFTPDLQAAYQKVVAGVANALAHRYH</Hsp_hseq>
+      <Hsp_midline>VHL+ +EK+AV  LW KV VDEVGGEALGRLLVVYPWT+RFFESFGDLST DAVM NPKVKAHG KVL +F DGL HLDNLKGT+A LSELHCDKLHVDPENFRLLGNVLV VLA HFGKEFTP +QAAYQKVVAGVANALAH+YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>pdb|1FSX|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1FSX|D Chain D, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G08|B Chain B, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G08|D Chain D, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G09|B Chain B, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G09|D Chain D, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G0A|B Chain B, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1G0A|D Chain D, HEMOGLOBIN BETA CHAIN [Bos taurus] &gt;pdb|1HDA|B Chain B, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Bos taurus] &gt;pdb|1HDA|D Chain D, HEMOGLOBIN (DEOXY) (BETA CHAIN) [Bos taurus] &gt;pdb|2QSP|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|2QSP|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|2QSS|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|2QSS|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3CIU|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3CIU|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PI8|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PI8|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PI9|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PI9|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PIA|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|3PIA|D Chain D, Hemoglobin subunit beta [Bos taurus] &gt;pdb|6II1|B Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|6II1|D Chain D, Hemoglobin subunit beta [Bos taurus]</Hit_def>
+  <Hit_accession>1FSX_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>4.54723e-80</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTAFWGKVKVDEVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRYH</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVTA WGKV VDEVGGEALGRLLVVYPWTQRFFESFGDLST DAVM NPKVKAHGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA +FGKEFTP +QA +QKVVAGVANALAH+YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>pdb|1FDH|G</Hit_id>
+  <Hit_def>Chain G, HEMOGLOBIN F (DEOXY) (GAMMA CHAIN) [Homo sapiens] &gt;pdb|1FDH|H Chain H, HEMOGLOBIN F (DEOXY) (GAMMA CHAIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1FDH_G</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>4.65238e-80</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH</Hsp_hseq>
+      <Hsp_midline>H T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVKAHGKKVL +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP VQA++QK+V GVA+AL+ +YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>pdb|4MQK|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQK|D Chain D, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQK|F Chain F, Hemoglobin subunit gamma-2 [Homo sapiens] &gt;pdb|4MQK|H Chain H, Hemoglobin subunit gamma-2 [Homo sapiens]</Hit_def>
+  <Hit_accession>4MQK_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>233.417</Hsp_bit-score>
+      <Hsp_score>594</Hsp_score>
+      <Hsp_evalue>1.04685e-79</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKMLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTGVASALSSRYH</Hsp_hseq>
+      <Hsp_midline>H T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVKAHGKK+L +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP VQA++QK+V GVA+AL+ +YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>pdb|1I3D|A</Hit_id>
+  <Hit_def>Chain A, HEMOGLOBIN GAMMA CHAINS [Homo sapiens] &gt;pdb|1I3D|B Chain B, HEMOGLOBIN GAMMA CHAINS [Homo sapiens] &gt;pdb|1I3E|A Chain A, HEMOGLOBIN GAMMA CHAINS [Homo sapiens] &gt;pdb|1I3E|B Chain B, HEMOGLOBIN GAMMA CHAINS [Homo sapiens]</Hit_def>
+  <Hit_accession>1I3D_A</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>232.261</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>2.65876e-79</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>HLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>HFTEEDKATITSLWGKVNVEDAGGETLGRLLVVYPWTQRFFDSFGNLSSASAIMGNPKVKAHGKKVLTSLGDAIKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVTVLAIHFGKEFTPEVQASWQKMVTAVASALSSRYH</Hsp_hseq>
+      <Hsp_midline>H T E+K+ +T+LWGKVNV++ GGE LGRLLVVYPWTQRFF+SFG+LS+  A+MGNPKVKAHGKKVL +  D + HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA HFGKEFTP VQA++QK+V  VA+AL+ +YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>pdb|6IHX|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Bos taurus] &gt;pdb|6IHX|D Chain D, Hemoglobin subunit beta [Bos taurus]</Hit_def>
+  <Hit_accession>6IHX_B</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>3.49441e-79</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTAFWGKVKVDEVGGEALGRLLVVYPWTQRFFESFGDLSTADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAALSELHCDKLHVDPENFKLLGNVLVVVLARNFGKEFTPVLQADFQKVVAGVANALAHRY</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVTA WGKV VDEVGGEALGRLLVVYPWTQRFFESFGDLST DAVM NPKVKAHGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA +FGKEFTP +QA +QKVVAGVANALAH+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>pdb|1JEB|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN BETA-SINGLE CHAIN [Mus musculus] &gt;pdb|1JEB|D Chain D, HEMOGLOBIN BETA-SINGLE CHAIN [Mus musculus]</Hit_def>
+  <Hit_accession>1JEB_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>5.85537e-79</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTDAEKAAVSGLWGKVNADEVGGEALGRLLVVYPWTQRYFDSFGDLSSASAIMGNAKVKAHGKKVITAFNDGLNHLDSLKGTFASLSELHCDKLHVDPENFRLLGNMIVIVLGHHLGKDFTPAAQAAFQKVVAGVAAALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EK+AV+ LWGKVN DEVGGEALGRLLVVYPWTQR+F+SFGDLS+  A+MGN KVKAHGKKV+ AF+DGL HLD+LKGTFA+LSELHCDKLHVDPENFRLLGN++V VL HH GK+FTP  QAA+QKVVAGVA ALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>pdb|3HYU|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Cavia porcellus]</Hit_def>
+  <Hit_accession>3HYU_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>6.75246e-79</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTAAEKSAILDLWGKVNVGEIGAEALGRLLVVYPWTQRFFEKFGDLSSASAIMSNAHVKSHGAKVLASFSEGLKHLQDLKGTFAKLSELHCDKLHVDPENFRLLGNMIVIALAHHHPSEFTPCTQAAFQKVTAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EKSA+  LWGKVNV E+G EALGRLLVVYPWTQRFFE FGDLS+  A+M N  VK+HG KVL +FS+GL HL +LKGTFA LSELHCDKLHVDPENFRLLGN++V  LAHH   EFTP  QAA+QKV AGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>pdb|1G0B|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN BETA CHAIN [Equus caballus] &gt;pdb|1IBE|B Chain B, HEMOGLOBIN (DEOXY) [Equus caballus] &gt;pdb|1IWH|B Chain B, Hemoglobin beta chain [Equus caballus] &gt;pdb|1NS6|B Chain B, Hemoglobin beta subunit [Equus caballus] &gt;pdb|1NS9|B Chain B, Hemoglobin beta subunit [Equus caballus] &gt;pdb|1S0H|B Chain B, Hemoglobin beta chain [Equus asinus] &gt;pdb|1Y8H|B Chain B, Hemoglobin beta chain [Equus caballus] &gt;pdb|1Y8H|D Chain D, Hemoglobin beta chain [Equus caballus] &gt;pdb|1Y8I|B Chain B, Hemoglobin beta chain [Equus caballus] &gt;pdb|1Y8I|D Chain D, Hemoglobin beta chain [Equus caballus] &gt;pdb|1Y8K|B Chain B, Hemoglobin beta chain [Equus caballus] &gt;pdb|1Y8K|D Chain D, Hemoglobin beta chain [Equus caballus] &gt;pdb|2D5X|B Chain B, Hemoglobin beta subunit [Equus caballus] &gt;pdb|2MHB|B Chain B, Hemoglobin (aquo Met) (beta Chain) [Equus caballus] &gt;pdb|2ZLT|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLU|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLV|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLW|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLW|D Chain D, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLX|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|2ZLX|D Chain D, Hemoglobin subunit beta [Equus caballus] &gt;pdb|5C6E|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|6SVA|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|8PUQ|B Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|8PUR|B Chain B, Hemoglobin subunit beta [Equus caballus]</Hit_def>
+  <Hit_accession>1G0B_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>230.72</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.40773e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VQLSGEEKAAVLALWDKVNEEEVGGEALGRLLVVYPWTQRFFDSFGDLSNPGAVMGNPKVKAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKDFTPELQASYQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>V L+ EEK+AV ALW KVN +EVGGEALGRLLVVYPWTQRFF+SFGDLS P AVMGNPKVKAHGKKVL +F +G+ HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLV VLA HFGK+FTP +QA+YQKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>pdb|3A0G|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Cavia porcellus]</Hit_def>
+  <Hit_accession>3A0G_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>229.95</Hsp_bit-score>
+      <Hsp_score>585</Hsp_score>
+      <Hsp_evalue>2.54488e-78</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHLTAAEKSAILDLWGKVNVGEIGAEALGRLLVVYPWTQRFFEKFGDLSSASAIMSNAHVKSHGAKVLASFSEGLKHLQDLKGTFAKLSELHCDKLHVDPENFRLLGNMLTIAIAHHHPSEFTPCTQAAFQKVTAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>VHLT  EKSA+  LWGKVNV E+G EALGRLLVVYPWTQRFFE FGDLS+  A+M N  VK+HG KVL +FS+GL HL +LKGTFA LSELHCDKLHVDPENFRLLGN+L   +AHH   EFTP  QAA+QKV AGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>pdb|6R2O|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Equus caballus] &gt;pdb|6R2O|D Chain D, Hemoglobin subunit beta [Equus caballus]</Hit_def>
+  <Hit_accession>6R2O_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.409</Hsp_bit-score>
+      <Hsp_score>581</Hsp_score>
+      <Hsp_evalue>1.02394e-77</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>146</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>131</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>145</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKY</Hsp_qseq>
+      <Hsp_hseq>VQLSGEEKAAVLALWDKVNEEEVGGEALGRLLVVYPWTQRFFDSFGDLSNPGAVMGNPKVKAHGKKVLHSFGEGVHHLDNLKGTFAALSELHCDKLHVDPENFRLLGNVLVVVLARHFGKDFTPELQASYQKVVAGVANALAHKY</Hsp_hseq>
+      <Hsp_midline>V L+ EEK+AV ALW KVN +EVGGEALGRLLVVYPWTQRFF+SFGDLS P AVMGNPKVKAHGKKVL +F +G+ HLDNLKGTFA LSELHCDKLHVDPENFRLLGNVLV VLA HFGK+FTP +QA+YQKVVAGVANALAHKY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>pdb|2QU0|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Ovis aries] &gt;pdb|2QU0|D Chain D, Hemoglobin subunit beta [Ovis aries]</Hit_def>
+  <Hit_accession>2QU0_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.942</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>1.87124e-76</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTGFWGKVKVDEVGAEALGRLLVVYPWTQRFFEHFGDLSNADAVMNNPKVKAHGKKVLDSFSNGMKHLDDLKGTFAQLSELHCDKLHVDPENFRLLGNVLVVVLARHHGNEFTPVLQADFQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVT  WGKV VDEVG EALGRLLVVYPWTQRFFE FGDLS  DAVM NPKVKAHGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENFRLLGNVLV VLA H G EFTP +QA +QKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|1HDS|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Odocoileus virginianus] &gt;pdb|1HDS|D Chain D, HEMOGLOBIN S (DEOXY) (BETA CHAIN) [Odocoileus virginianus]</Hit_def>
+  <Hit_accession>1HDS_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.172</Hsp_bit-score>
+      <Hsp_score>570</Hsp_score>
+      <Hsp_evalue>3.85824e-76</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTGFWGKVDVDVVGAQALGRLLVVYPWTQRFFQHFGNLSSAGAVMNNPKVKAHGKRVLDAFTQGLKHLDDLKGAFAQLSGLHCNKLHVNPQNFRLLGNVLALVVARNFGGQFTPNVQALFQKVVAGVANALAHKYH</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVT  WGKV+VD VG +ALGRLLVVYPWTQRFF+ FG+LS+  AVM NPKVKAHGK+VL AF+ GL HLD+LKG FA LS LHC+KLHV+P+NFRLLGNVL  V+A +FG +FTP VQA +QKVVAGVANALAHKYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>pdb|2RI4|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|2RI4|D Chain D, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|2RI4|J Chain J, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|2RI4|L Chain L, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|3D1A|B Chain B, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|3D1A|D Chain D, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|3EU1|B Chain B, Hemoglobin subunit beta-A [Capra hircus] &gt;pdb|3EU1|D Chain D, Hemoglobin subunit beta-A [Capra hircus]</Hit_def>
+  <Hit_accession>2RI4_B</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>221.476</Hsp_bit-score>
+      <Hsp_score>563</Hsp_score>
+      <Hsp_evalue>4.96331e-75</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>LTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>LTAEEKAAVTGFWGKVKVDEVGAEALGRLLVVYPWTQRFFEHFGDLSSADAVMNNAKVKAHGKKVLDSFSNGMKHLDDLKGTFAQLSELHCDKLHVDPENFKLLGNVLVVVLARHHGSEFTPLLQAEFQKVVAGVANALAHRYH</Hsp_hseq>
+      <Hsp_midline>LT EEK+AVT  WGKV VDEVG EALGRLLVVYPWTQRFFE FGDLS+ DAVM N KVKAHGKKVL +FS+G+ HLD+LKGTFA LSELHCDKLHVDPENF+LLGNVLV VLA H G EFTP +QA +QKVVAGVANALAH+YH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>pdb|1FAW|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA SUBUNIT) [Anser anser] &gt;pdb|1FAW|D Chain D, HEMOGLOBIN (BETA SUBUNIT) [Anser anser]</Hit_def>
+  <Hit_accession>1FAW_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>3.06319e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>pdb|1A4F|B</Hit_id>
+  <Hit_def>Chain B, HEMOGLOBIN (BETA CHAIN) [Anser indicus] &gt;pdb|1C40|B Chain B, PROTEIN (HEMOGLOBIN (BETA CHAIN)) [Anser indicus] &gt;pdb|1HV4|B Chain B, HEMOGLOBIN BETA CHAIN [Anser indicus] &gt;pdb|1HV4|D Chain D, HEMOGLOBIN BETA CHAIN [Anser indicus] &gt;pdb|1HV4|F Chain F, HEMOGLOBIN BETA CHAIN [Anser indicus] &gt;pdb|1HV4|H Chain H, HEMOGLOBIN BETA CHAIN [Anser indicus]</Hit_def>
+  <Hit_accession>1A4F_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>3.65045e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPDCQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>pdb|1HBR|B</Hit_id>
+  <Hit_def>Chain B, PROTEIN (HEMOGLOBIN D) [Gallus gallus] &gt;pdb|1HBR|D Chain D, PROTEIN (HEMOGLOBIN D) [Gallus gallus]</Hit_def>
+  <Hit_accession>1HBR_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>3.65045e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH T EEK  +T LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TF+ LSELHCDKLHVDPENFRLLG++L+ VLA HF K+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>pdb|2R80|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Columba livia] &gt;pdb|2R80|D Chain D, Hemoglobin subunit beta [Columba livia] &gt;pdb|3DHR|B Chain B, Hemoglobin subunit beta [Columba livia] &gt;pdb|3DHR|D Chain D, Hemoglobin subunit beta [Columba livia] &gt;pdb|3DHR|F Chain F, Hemoglobin subunit beta [Columba livia] &gt;pdb|3DHR|H Chain H, Hemoglobin subunit beta [Columba livia] &gt;pdb|3MJU|B Chain B, Hemoglobin subunit beta [Columba livia]</Hit_def>
+  <Hit_accession>2R80_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>219.55</Hsp_bit-score>
+      <Hsp_score>558</Hsp_score>
+      <Hsp_evalue>3.69068e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITSIWGKVNVADCGAEALARLLIVYPWTQRFFSSFGNLSSATAISGNPNVKAHGKKVLTSFGDAVKNLDNIKGTFAQLSELHCDKLHVDPENFRLLGDILVIILAAHFGKDFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T++WGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+  A+ GNP VKAHGKKVL +F D + +LDN+KGTFA LSELHCDKLHVDPENFRLLG++LV +LA HFGK+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>pdb|3EOK|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Anas platyrhynchos]</Hit_def>
+  <Hit_accession>3EOK_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>8.7741e-74</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWTAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH T EEK  +T LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF K+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>pdb|2ZFB|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Psittacula krameri]</Hit_def>
+  <Hit_accession>2ZFB_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>218.394</Hsp_bit-score>
+      <Hsp_score>555</Hsp_score>
+      <Hsp_evalue>1.04562e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAVLGNPNVRAHGKKVLTSFGEAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAGHFGKDFTPDCQAAWQKLVRAVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+  AV+GNP V+AHGKKVL +F + + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HFGK+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>pdb|3MJP|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Coturnix japonica] &gt;pdb|3MJP|D Chain D, Hemoglobin subunit beta [Coturnix japonica]</Hit_def>
+  <Hit_accession>3MJP_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>217.624</Hsp_bit-score>
+      <Hsp_score>553</Hsp_score>
+      <Hsp_evalue>1.86932e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKDFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TF+ LSELHCDKLHVDPENFRLLG++L+ VLA HF K+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>pdb|3WR1|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Phalacrocorax carbo]</Hit_def>
+  <Hit_accession>3WR1_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>3.53015e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWTAEEKQLITGLWGKVNVAECGAEALARLLIVYPWTQRFFASFGNLSSATAITGNPMVRAHGKKVLTSFGEAVKNLDNIKATFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKDFTPECQAAWQKLVGAVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH T EEK  +T LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+  A+ GNP V+AHGKKVL +F + + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF K+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>pdb|3WTG|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin [Dromaius novaehollandiae] &gt;pdb|3WTG|D Chain D, Hemoglobin [Dromaius novaehollandiae]</Hit_def>
+  <Hit_accession>3WTG_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>4.20688e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VQWSAEEKQLISSLWGKVNVAECGAEALARLLIVYPWTQRFFTSFGNLSSASAIIGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFAKEFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>V  + EEK  +++LWGKVNV E G EAL RLL+VYPWTQRFF SFG+LS+  A++GNP V+AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>pdb|2QMB|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|2QMB|D Chain D, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|3K8B|B Chain B, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|3K8B|D Chain D, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|6ZMX|B Chain B, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|6ZMX|D Chain D, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|6ZMY|B Chain B, Hemoglobin beta chain [Meleagris gallopavo] &gt;pdb|6ZMY|D Chain D, Hemoglobin beta chain [Meleagris gallopavo]</Hit_def>
+  <Hit_accession>2QMB_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>4.39543e-73</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VHWSAEEKQLITGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFSQLSELHCDKLHVDPENFRLLGDILIIVLAAHFSKDFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>VH + EEK  +T LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TF+ LSELHCDKLHVDPENFRLLG++L+ VLA HF K+FTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>pdb|3A59|B</Hit_id>
+  <Hit_def>Chain B, Hemoglobin subunit beta [Struthio camelus] &gt;pdb|3A59|D Chain D, Hemoglobin subunit beta [Struthio camelus] &gt;pdb|3A59|F Chain F, Hemoglobin subunit beta [Struthio camelus] &gt;pdb|3A59|H Chain H, Hemoglobin subunit beta [Struthio camelus] &gt;pdb|3FS4|B Chain B, Hemoglobin subunit beta [Struthio camelus] &gt;pdb|3FS4|D Chain D, Hemoglobin subunit beta [Struthio camelus]</Hit_def>
+  <Hit_accession>3A59_B</Hit_accession>
+  <Hit_len>146</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.312</Hsp_bit-score>
+      <Hsp_score>547</Hsp_score>
+      <Hsp_evalue>1.25891e-72</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>146</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</Hsp_qseq>
+      <Hsp_hseq>VQWSAEEKQLISGLWGKVNVADCGAEALARLLIVYPWTQRFFASFGNLSSPTAILGNPMVRAHGKKVLTSFGDAVKNLDNIKNTFAQLSELHCDKLHVDPENFRLLGDILIIVLAAHFTKEFTPECQAAWQKLVRVVAHALARKYH</Hsp_hseq>
+      <Hsp_midline>V  + EEK  ++ LWGKVNV + G EAL RLL+VYPWTQRFF SFG+LS+P A++GNP V+AHGKKVL +F D + +LDN+K TFA LSELHCDKLHVDPENFRLLG++L+ VLA HF KEFTP  QAA+QK+V  VA+ALA KYH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857720</Iteration_query-ID>
+  <Iteration_query-def>Channel_catfish</Iteration_query-def>
+  <Iteration_query-len>148</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857721</Iteration_query-ID>
+  <Iteration_query-def>Anguillicola_globin</Iteration_query-def>
+  <Iteration_query-len>147</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857722</Iteration_query-ID>
+  <Iteration_query-def>Zebrafish</Iteration_query-def>
+  <Iteration_query-len>148</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857723</Iteration_query-ID>
+  <Iteration_query-def>Atlantic_salmon</Iteration_query-def>
+  <Iteration_query-len>148</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_2857724</Iteration_query-ID>
+  <Iteration_query-def>Rainbow_trout</Iteration_query-def>
+  <Iteration_query-len>148</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,2955 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.16.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1514327</BlastOutput_query-ID>
+  <BlastOutput_query-def>[Perca</BlastOutput_query-def>
+  <BlastOutput_query-len>138</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>0.05</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514327</Iteration_query-ID>
+  <Iteration_query-def>[Perca</Iteration_query-def>
+  <Iteration_query-len>138</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6GNM|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GNM|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GNM|C Chain C, Transthyretin [Sparus aurata] &gt;pdb|6GNM|D Chain D, Transthyretin [Sparus aurata] &gt;pdb|6GNO|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GNO|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GNP|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GNP|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GNP|C Chain C, Transthyretin [Sparus aurata] &gt;pdb|6GNP|D Chain D, Transthyretin [Sparus aurata] &gt;pdb|6GNR|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GNR|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GNW|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GNW|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GNW|C Chain C, Transthyretin [Sparus aurata] &gt;pdb|6GNW|D Chain D, Transthyretin [Sparus aurata] &gt;pdb|6GON|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GON|B Chain B, Transthyretin [Sparus aurata] &gt;pdb|6GON|C Chain C, Transthyretin [Sparus aurata] &gt;pdb|6GON|D Chain D, Transthyretin [Sparus aurata] &gt;pdb|6GOO|A Chain A, Transthyretin [Sparus aurata] &gt;pdb|6GOO|B Chain B, Transthyretin [Sparus aurata]</Hit_def>
+  <Hit_accession>6GNM_A</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.491</Hsp_bit-score>
+      <Hsp_score>589</Hsp_score>
+      <Hsp_evalue>2.88866e-79</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>SPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>APTPTDKHGGSDTRCPLMVKILDAVKGTPAGSVALKVSQKTADGGWTQIATGVTDATGEIHNLITEQQFPAGVYRVEFDTKAYWTNQGSTPFHEVAEVVFDAHPEGHRHYTLALLLSPFSYTTTAVVSSVHE</Hsp_hseq>
+      <Hsp_midline>+PTPT+KHGGSDT+CPL VKILDAVKGTPAGSVALKV QK ADG WTQIA GVTD TGE HNLITEQQF AGVYRVEFDTK+YW N+GSTPFHE A+VVF+AH EGHRHYTLALLLSP+SY+TTAVV+  H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|1SN0|A</Hit_id>
+  <Hit_def>Chain A, transthyretin [Sparus aurata] &gt;pdb|1SN0|B Chain B, transthyretin [Sparus aurata] &gt;pdb|1SN0|C Chain C, transthyretin [Sparus aurata] &gt;pdb|1SN0|D Chain D, transthyretin [Sparus aurata] &gt;pdb|1SN2|A Chain A, transthyretin [Sparus aurata] &gt;pdb|1SN2|B Chain B, transthyretin [Sparus aurata] &gt;pdb|1SN2|C Chain C, transthyretin [Sparus aurata] &gt;pdb|1SN2|D Chain D, transthyretin [Sparus aurata] &gt;pdb|1SN5|A Chain A, transthyretin [Sparus aurata] &gt;pdb|1SN5|B Chain B, transthyretin [Sparus aurata] &gt;pdb|1SN5|C Chain C, transthyretin [Sparus aurata] &gt;pdb|1SN5|D Chain D, transthyretin [Sparus aurata]</Hit_def>
+  <Hit_accession>1SN0_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>228.024</Hsp_bit-score>
+      <Hsp_score>580</Hsp_score>
+      <Hsp_evalue>6.29466e-78</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>117</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>TPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>TPTDKHGGSDTRCPLMVKILDAVKGTPAGSVALKVSQKTADGGWTQIATGVTDATGEIHNLITEQQFPAGVYRVEFDTKAYWTNQGSTPFHEVAEVVFDAHPEGHRHYTLALLLSPFSYTTTAVVSSVHE</Hsp_hseq>
+      <Hsp_midline>TPT+KHGGSDT+CPL VKILDAVKGTPAGSVALKV QK ADG WTQIA GVTD TGE HNLITEQQF AGVYRVEFDTK+YW N+GSTPFHE A+VVF+AH EGHRHYTLALLLSP+SY+TTAVV+  H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|1OO2|A</Hit_id>
+  <Hit_def>Chain A, transthyretin [Sparus aurata] &gt;pdb|1OO2|B Chain B, transthyretin [Sparus aurata] &gt;pdb|1OO2|C Chain C, transthyretin [Sparus aurata] &gt;pdb|1OO2|D Chain D, transthyretin [Sparus aurata]</Hit_def>
+  <Hit_accession>1OO2_A</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.24109e-68</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>RCPLMVKILDAVKGTPAGSVALKVSQKTADGGWTQIATGVTDATGEIHNLITEQQFPAGVYRVEFDTKAYWTNQGSTPFHEVAEVVFDAHPEGHGHYTLALLLSPFSYTTTAVVSSVHE</Hsp_hseq>
+      <Hsp_midline>+CPL VKILDAVKGTPAGSVALKV QK ADG WTQIA GVTD TGE HNLITEQQF AGVYRVEFDTK+YW N+GSTPFHE A+VVF+AH EGH HYTLALLLSP+SY+TTAVV+  H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|7KJJ|A</Hit_id>
+  <Hit_def>Chain A, TTR ancestor [unidentified] &gt;pdb|7KJJ|B Chain B, TTR ancestor [unidentified]</Hit_def>
+  <Hit_accession>7KJJ_A</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>184.111</Hsp_bit-score>
+      <Hsp_score>466</Hsp_score>
+      <Hsp_evalue>1.52783e-60</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>PTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>PVDPHGAVDSKCPLMVKVLDAVRGVPASNVAVKVFKQDESGSWQQLSTGVTNETGEIHNLITEEAFTEGVYKVHFDTKTYWKSLGLTPFYEYADVVFTANDAGHRHYTIALLLSPYSYSTTAVVSDPHE</Hsp_hseq>
+      <Hsp_midline>P + HG  D+KCPL VK+LDAV+G PA +VA+KVF++   G+W Q++ GVT++TGE HNLITE+ F+ GVY+V FDTK+YWK+ G TPF+E ADVVF A+  GHRHYT+ALLLSPYSYSTTAVV+D H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1TFP|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Gallus gallus] &gt;pdb|1TFP|B Chain B, TRANSTHYRETIN [Gallus gallus]</Hit_def>
+  <Hit_accession>1TFP_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>7.80339e-58</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>PTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>PLVSHGSVDSKCPLMVKVLDAVRGSPAANVAVKVFKKAADGTWQDFATGKTTEFGEIHELTTEEQFVEGVYRVEFDTSSYWKGLGLSPFHEYADVVFTANDSGHRHYTIAALLSPFSYSTTAVVSDPQE</Hsp_hseq>
+      <Hsp_midline>P   HG  D+KCPL VK+LDAV+G+PA +VA+KVF+KAADG W   A G T + GE H L TE+QF  GVYRVEFDT SYWK  G +PFHE ADVVF A+  GHRHYT+A LLSP+SYSTTAVV+D  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|1IE4|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1IE4|B Chain B, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1IE4|C Chain C, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1IE4|D Chain D, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGI|A Chain A, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGI|B Chain B, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGI|C Chain C, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGI|D Chain D, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGJ|A Chain A, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGJ|B Chain B, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGJ|C Chain C, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1KGJ|D Chain D, TRANSTHYRETIN [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1IE4_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>6.93181e-53</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>GAGESKCPLMVKVLDAVRGSPAVDVAVKVFKKTADGSWEPFASGKTAESGELHGLTTDEKFTEGVYRVELDTKSYWKALGISPFHEYAEVVFTANDSGHRHYTIAALLSPYSYSTTAVVSN</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA  VA+KVF+K ADG+W   A+G T ++GE H L T+++F+ GVYRVE DTKSYWK  G +PFHE A+VVF A+  GHRHYT+A LLSPYSYSTTAVV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1GKE|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1GKE|B Chain B, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1GKE|C Chain C, TRANSTHYRETIN [Rattus norvegicus] &gt;pdb|1GKE|D Chain D, TRANSTHYRETIN [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1GKE_A</Hit_accession>
+  <Hit_len>120</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>4.31216e-52</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>TKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>SKCPLMVKVLDAVRGSPAVDVAVKVFKKTADGSWEPFASGKTAESGELHGLTTDEKFTEGVYRVELDTKSYWKALGISPFHEYAEVVFTANDSGHRHYTIAALLSPYSYSTTAVVSN</Hsp_hseq>
+      <Hsp_midline>+KCPL VK+LDAV+G+PA  VA+KVF+K ADG+W   A+G T ++GE H L T+++F+ GVYRVE DTKSYWK  G +PFHE A+VVF A+  GHRHYT+A LLSPYSYSTTAVV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|2QPF|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Mus musculus] &gt;pdb|2QPF|B Chain B, Transthyretin [Mus musculus] &gt;pdb|2QPF|C Chain C, Transthyretin [Mus musculus] &gt;pdb|2QPF|D Chain D, Transthyretin [Mus musculus] &gt;pdb|2QPF|E Chain E, Transthyretin [Mus musculus] &gt;pdb|2QPF|F Chain F, Transthyretin [Mus musculus] &gt;pdb|2QPF|G Chain G, Transthyretin [Mus musculus] &gt;pdb|2QPF|H Chain H, Transthyretin [Mus musculus]</Hit_def>
+  <Hit_accession>2QPF_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.01968e-50</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>GAGESKXPLMVKVLDAVRGSPAVDVAVKVFKKTSEGSWEPFASGKTAESGELHGLTTDEKFVEGVYRVELDTKSYWKTLGISPFHEFADVVFTANDSGHRHYTIAALLSPYSYSTTAVVSN</Hsp_hseq>
+      <Hsp_midline>G  ++K PL VK+LDAV+G+PA  VA+KVF+K ++G+W   A+G T ++GE H L T+++F  GVYRVE DTKSYWK  G +PFHE ADVVF A+  GHRHYT+A LLSPYSYSTTAVV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|8E7E|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8E7E|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8E7E|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8E7E|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8E7E|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8E7J|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8E7J|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8E7J|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8E7J|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8E7J|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8TDN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8TDN|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8TDN|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8TDN|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8TDN|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8TDO|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8TDO|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8TDO|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8TDO|E Chain E, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8E7E_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>157.532</Hsp_bit-score>
+      <Hsp_score>397</Hsp_score>
+      <Hsp_evalue>6.28652e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGSSPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  GS+PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1X7T|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|1X7T|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1X7T_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>7.90944e-50</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRHYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G RHYT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|2G3X|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G3X|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2NOY|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2NOY|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4I87|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4I87|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4I89|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4I89|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>2G3X_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.762</Hsp_bit-score>
+      <Hsp_score>395</Hsp_score>
+      <Hsp_evalue>8.7283e-50</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGSSPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  GS+PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1BZD|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BZD|B Chain B, PROTEIN (TRANSTHYRETIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1BZD_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>1.26635e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTSESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G S++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|8JOK|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8JOK|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8JOK_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>1.91193e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVALHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VAL VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|1QAB|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (transthyretin) [Homo sapiens] &gt;pdb|1QAB|B Chain B, PROTEIN (transthyretin) [Homo sapiens] &gt;pdb|1QAB|C Chain C, PROTEIN (transthyretin) [Homo sapiens] &gt;pdb|1QAB|D Chain D, PROTEIN (transthyretin) [Homo sapiens] &gt;pdb|1RLB|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1RLB|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1RLB|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1RLB|D Chain D, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1THA|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1THA|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1THC|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1THC|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TLM|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TLM|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2PAB|A Chain A, TRANSTHYRETIN PRECURSOR [Homo sapiens] &gt;pdb|2PAB|B Chain B, TRANSTHYRETIN PRECURSOR [Homo sapiens] &gt;pdb|6D0W|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6D0W|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1QAB_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>2.00541e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEQFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE+QF  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1DVQ|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVQ|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVS|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVS|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVT|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVT|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVU|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVU|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVX|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1DVX|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1DVY|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVY|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVZ|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1DVZ|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1DVQ_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>2.24864e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEQFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE+QF  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|7Y1I|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|H Chain H, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|I Chain I, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|J Chain J, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|K Chain K, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|L Chain L, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|M Chain M, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|N Chain N, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|O Chain O, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|P Chain P, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|Q Chain Q, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|R Chain R, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|S Chain S, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|T Chain T, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|U Chain U, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|V Chain V, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|W Chain W, Transthyretin [Homo sapiens] &gt;pdb|7Y1I|X Chain X, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7Y1I_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>2.28486e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|2G3Z|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G3Z|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2G4E|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G4E|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>2G3Z_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>2.31206e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGASPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G++PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|5FW7|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5FW7|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>5FW7_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>2.94154e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAVLLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A+LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|4N87|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4N87|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWF|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWF|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWG|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWH|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWI|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWI|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWJ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWJ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PWK|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PWK|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4QRF|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4QRF|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4Y9B|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4Y9B|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4Y9C|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4Y9C|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4Y9E|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4Y9E|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4Y9F|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4Y9F|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4Y9G|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4Y9G|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6IMX|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6IMX|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6IMY|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6IMY|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7DT6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7DT6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7DT8|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7DT8|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7ERI|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7ERI|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7ERJ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7ERJ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7ERK|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7ERK|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7W9Q|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7W9Q|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7W9R|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7W9R|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8II1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8II1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8II2|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8II2|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8II3|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8II3|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8II4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8II4|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W42|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W42|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W43|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W43|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W44|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W44|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W45|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W45|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W46|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W46|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W47|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W47|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8WGS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8WGS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8WGT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8WGT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8WGU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8WGU|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4N87_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.10246e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1ETA|1</Hit_id>
+  <Hit_def>Chain 1, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ETA|2 Chain 2, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TTC|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1TTC|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DJT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DJT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3KGS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3KGS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3KGT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3KGT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3NG5|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3NG5|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4QYA|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4QYA|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|H Chain H, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|I Chain I, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|J Chain J, Transthyretin [Homo sapiens] &gt;pdb|6SDZ|K Chain K, Transthyretin [Homo sapiens] &gt;pdb|7OB4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7OB4|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7OB4|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|7OB4|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|7OB4|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|7OB4|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|7OB4|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|7OB4|H Chain H, Transthyretin [Homo sapiens] &gt;pdb|7OB4|I Chain I, Transthyretin [Homo sapiens] &gt;pdb|7OB4|J Chain J, Transthyretin [Homo sapiens] &gt;pdb|7OB4|K Chain K, Transthyretin [Homo sapiens] &gt;pdb|7OB4|L Chain L, Transthyretin [Homo sapiens] &gt;pdb|7OB4|M Chain M, Transthyretin [Homo sapiens] &gt;pdb|7OB4|N Chain N, Transthyretin [Homo sapiens] &gt;pdb|8PM8|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PM8|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PMA|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PMA|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1ETA_1</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>3.21071e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|7EJR|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7EJR|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7EJR_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.992</Hsp_bit-score>
+      <Hsp_score>393</Hsp_score>
+      <Hsp_evalue>3.62241e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|2B14|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|2B14|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DJZ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DJZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DK0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DK0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3SSG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5TTR|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|D Chain D, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|E Chain E, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|F Chain F, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|G Chain G, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5TTR|H Chain H, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2B14_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>3.90986e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGEPHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|8JQW|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8JQW|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8JQW_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>4.34354e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAIHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|7WL6|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7WL6|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7WL6_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>5.17449e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVELDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4ANK|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ANK|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4DEW|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4DEW|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6R66|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6R66|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6R67|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6R67|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6R68|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6R68|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6SUG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6SUG|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6SUH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6SUH|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8E7D|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8E7D|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8E7D|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8E7D|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8E7D|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8E7H|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8E7H|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8E7H|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8E7H|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8E7H|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8G9R|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8G9R|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8G9R|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8G9R|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8G9R|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8GBR|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8GBR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8GBR|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8GBR|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8GBR|E Chain E, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4ANK_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>5.48017e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|4N85|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4N85|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4N86|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4N86|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5AYT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5AYT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7DT3|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7DT3|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7DT5|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7DT5|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7ERH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7ERH|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8IG1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8IG1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8W48|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W48|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4N85_A</Hit_accession>
+  <Hit_len>159</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>5.65914e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1ZCR|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|1ZCR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1ZD6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1ZD6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4D7B|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4D7B|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5LLL|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5LLL|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U48|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U48|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U49|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4A|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4A|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4B|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4B|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4C|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4C|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4D|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4D|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4E|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4E|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4F|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4F|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5U4G|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5U4G|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6U0Q|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6U0Q|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE0|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE0|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8VE1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE1|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE1|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8VE2|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE2|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE2|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE2|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8VE3|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE3|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE3|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE3|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8VE4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE4|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE4|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE4|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1ZCR_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>6.04714e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|7Q3I|AAA</Hit_id>
+  <Hit_def>Chain AAA, Transthyretin [Homo sapiens] &gt;pdb|7Q3I|BBB Chain BBB, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7Q3I_AAA</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>6.67308e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1ETB|1</Hit_id>
+  <Hit_def>Chain 1, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ETB|2 Chain 2, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TTB|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TTB|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1ETB_1</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>6.98362e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIATLLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|5E4A|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5E4A|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5E4A_A</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>7.09431e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|7EJQ|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7EJQ|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7EJQ_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>7.13307e-49</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1BM7|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BM7|B Chain B, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BMZ|A Chain A, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BMZ|B Chain B, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1E3F|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1E3F|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1E4H|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1E4H|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1E5A|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1E5A|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1F41|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1F41|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|D Chain D, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|E Chain E, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|F Chain F, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|G Chain G, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1ICT|H Chain H, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TT6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1TT6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1TTA|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TTA|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TYR|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TYR|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TZ8|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1TZ8|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1TZ8|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|1TZ8|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|1U21|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1U21|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1Y1D|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1Y1D|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|1Z7J|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1Z7J|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2B15|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2B15|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2B77|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2B77|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2B9A|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2B9A|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2F7I|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2F7I|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2F8I|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2F8I|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2FBR|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2FBR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2FLM|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2FLM|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2G4G|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G4G|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2G5U|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G5U|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2G9K|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2G9K|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2GAB|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2GAB|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2QGB|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2QGB|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2QGC|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2QGC|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2QGD|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2QGD|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2QGE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2QGE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2ROX|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2ROX|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2ROY|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2ROY|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|3A4D|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3A4D|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3B56|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3B56|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3BSZ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3BSZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3BSZ|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3BSZ|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3CBR|A Chain A, Transthyretin [unidentified] &gt;pdb|3CBR|B Chain B, Transthyretin [unidentified] &gt;pdb|3CN0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CN0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3CN1|A Chain A, Transthyretin [unidentified] &gt;pdb|3CN1|B Chain B, Transthyretin [unidentified] &gt;pdb|3CN2|A Chain A, Transthyretin [unidentified] &gt;pdb|3CN2|B Chain B, Transthyretin [unidentified] &gt;pdb|3CN3|A Chain A, Transthyretin [unidentified] &gt;pdb|3CN3|B Chain B, Transthyretin [unidentified] &gt;pdb|3CN4|A Chain A, Transthyretin [unidentified] &gt;pdb|3CN4|B Chain B, Transthyretin [unidentified] &gt;pdb|3D2T|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3D2T|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3D7P|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3D7P|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3ESN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3ESN|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3ESO|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3ESO|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3ESP|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3ESP|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GLZ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GLZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GS0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GS0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GS4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GS4|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GS7|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GS7|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMR|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMU|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMV|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMV|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IMW|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IMW|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IPB|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IPB|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3IPE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3IPE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3KGU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3KGU|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3M1O|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3M1O|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3P3R|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3P3R|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3P3S|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3P3S|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3P3T|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3P3T|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3P3U|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3P3U|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3TCT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3TCT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3W3B|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3W3B|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4AC4|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4AC4|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ACT|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ACT|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4FI6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4FI6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4FI7|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4FI7|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4FI8|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4FI8|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4HJT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4HJT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4HJU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4HJU|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4I85|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4I85|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IIZ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IIZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IK6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IK6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IK7|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IK7|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IKI|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IKI|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IKJ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IKJ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IKK|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IKK|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4IKL|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4IKL|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4KY2|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4KY2|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4L1S|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4L1S|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4L1T|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4L1T|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4MAS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4MAS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4MRB|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4MRB|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PM1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PM1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4QXV|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4QXV|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4TQ8|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TQ8|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4TQH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TQH|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4TQI|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TQI|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4TQP|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TQP|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4WNJ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4WNJ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4WNS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4WNS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4WO0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4WO0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5AKS|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AKS|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AKT|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AKT|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AKV|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AKV|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AL0|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AL0|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AL8|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5AL8|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5BOJ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5BOJ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5E23|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5E23|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5EN3|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5EN3|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5HJG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5HJG|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5IHH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5IHH|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5JID|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5JID|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5JIM|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5JIM|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5JIQ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5JIQ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5L4F|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5L4F|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5L4I|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5L4I|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5L4J|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5L4J|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5L4M|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5L4M|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6GR7|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6GR7|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6GRP|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6GRP|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7QC5|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7QC5|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7Z40|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Z40|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7Z40|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|7Z40|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|7Z40|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|7Z40|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|7Z60|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Z60|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8ADE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8ADE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8ADE|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8ADE|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8ADE|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8ADE|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|8ADE|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|8C85|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8C85|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8C86|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8C86|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PM9|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PM9|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1BM7_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>7.21672e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|4PVL|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PVL|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PVM|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PVM|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4PVN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PVN|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5CN3|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CN3|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5CNH|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CNH|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4PVL_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>7.25882e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|8DW5|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8DW5_A</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.836</Hsp_bit-score>
+      <Hsp_score>390</Hsp_score>
+      <Hsp_evalue>7.34745e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>142</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|5A6I|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>5A6I_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>8.67752e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVITNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAV+T+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|3FC8|A</Hit_id>
+  <Hit_def>Chain A, transthyretin [Homo sapiens] &gt;pdb|3FC8|B Chain B, transthyretin [Homo sapiens] &gt;pdb|3FCB|A Chain A, transthyretin [Homo sapiens] &gt;pdb|3FCB|B Chain B, transthyretin [Homo sapiens] &gt;pdb|4ABQ|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABQ|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABU|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABU|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABV|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABV|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABW|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4ABW|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4AC2|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4AC2|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>3FC8_A</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>9.02925e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|2WQA|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2WQA|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2WQA|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2WQA|D Chain D, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2WQA_A</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>9.05026e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|6TI9|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6TI9|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6TJN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6TJN|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6TI9_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>9.26644e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1TTR|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TTR|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|4HIQ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4HIQ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4HIS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4HIS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PKG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PKG|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PKG|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8PKG|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8PKG|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8PKG|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|8PMO|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PMO|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1TTR_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>9.59222e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVITNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAV+T+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|8PKE|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PKE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PKE|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8PKE|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8PKE|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8PKE|F Chain F, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8PKE_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>9.59222e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAIRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDA++G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|8VE5|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE5|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE5|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE5|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8VE6|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8VE6|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8VE6|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8VE6|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8VE5_A</Hit_accession>
+  <Hit_len>144</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.451</Hsp_bit-score>
+      <Hsp_score>389</Hsp_score>
+      <Hsp_evalue>9.94464e-49</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>144</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|4MRC|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4MRC|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4MRC_A</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.22247e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSEPGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T + GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|5CLX|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CLX|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5CLY|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CLY|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5NFW|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5NFW|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6FFT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6FFT|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5CLX_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>1.38439e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSEPGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T + GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|5EZP|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5EZP|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5EZP|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|5EZP|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|5EZP|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|5EZP|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|5EZP|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|5EZP|H Chain H, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5EZP_A</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.54919e-48</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>ESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|8W1N|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8W1N|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8W1N_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.76736e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTSVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTT+VVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|7Y6J|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Y6J|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7YCQ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7YCQ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8I00|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8I00|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7Y6J_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>1.99693e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTSNDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF ++  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|7YBR|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7YBR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8HY4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8HY4|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7YBR_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.295</Hsp_bit-score>
+      <Hsp_score>386</Hsp_score>
+      <Hsp_evalue>2.03127e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTSNDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF ++  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|1X7S|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|1X7S|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2B16|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2B16|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1X7S_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.32757e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSFWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKS+WK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|4TL4|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TL4|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TL4_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.44031e-48</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|6R6I|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6R6I|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6R6I_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>2.45117e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPTINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+P  +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>51</Hit_num>
+  <Hit_id>pdb|4TKW|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TKW|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TKW_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.66361e-48</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGEPHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>52</Hit_num>
+  <Hit_id>pdb|1G1O|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1G1O|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1G1O|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1G1O|D Chain D, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2QEL|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|2QEL|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|2QEL|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|2QEL|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1G1O_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.74279e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESSDSHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++ +SH L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>53</Hit_num>
+  <Hit_id>pdb|5CLZ|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CLZ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5CM1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CM1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5NFE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5NFE|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5CLZ_A</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.75834e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>54</Hit_num>
+  <Hit_id>pdb|8W2W|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8W2W_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>2.76443e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTLVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTT VVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>55</Hit_num>
+  <Hit_id>pdb|1BZE|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BZE|B Chain B, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1FH2|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1FH2|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1FHN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|1FHN|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6FXU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6FXU|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1BZE_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>2.86552e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>56</Hit_num>
+  <Hit_id>pdb|5FW8|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5FW8|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>5FW8_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>3.02668e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHKHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFH+ A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>57</Hit_num>
+  <Hit_id>pdb|3A4F|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3A4F|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3A4F_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>3.02668e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGKLHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++G+ H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>58</Hit_num>
+  <Hit_id>pdb|1TSH|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1TSH|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|3DO4|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DO4|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DO4|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3DO4|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3DO4|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|3DO4|F Chain F, Transthyretin [Homo sapiens] &gt;pdb|3DO4|G Chain G, Transthyretin [Homo sapiens] &gt;pdb|3DO4|H Chain H, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1TSH_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.23208e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTAEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L  E++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>59</Hit_num>
+  <Hit_id>pdb|5FW6|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5FW6|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>5FW6_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.26765e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIVALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+  LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>60</Hit_num>
+  <Hit_id>pdb|3I9A|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3I9A|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3OZK|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3OZK|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3OZL|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3OZL|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8T5X|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8T5X|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3I9A_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>3.45142e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPTINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+P  +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>61</Hit_num>
+  <Hit_id>pdb|6KGB|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6KGB|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6KGB_A</Hit_accession>
+  <Hit_len>158</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>3.51714e-48</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTKEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L T+++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>62</Hit_num>
+  <Hit_id>pdb|5CR1|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5CR1|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5CR1_A</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.52082e-48</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGSSPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  GS+PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>63</Hit_num>
+  <Hit_id>pdb|7Q9L|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Q9L|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7Q9N|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Q9N|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7Q9O|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7Q9O|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8AWI|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8AWI|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7Q9L_A</Hit_accession>
+  <Hit_len>119</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>3.90643e-48</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>64</Hit_num>
+  <Hit_id>pdb|5FO2|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|5FO2|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>5FO2_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>4.29586e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIIALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+  LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>65</Hit_num>
+  <Hit_id>pdb|4PME|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PME|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4PME_A</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>4.31883e-48</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>66</Hit_num>
+  <Hit_id>pdb|8JNU|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8JNU|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8JNU_A</Hit_accession>
+  <Hit_len>136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>4.61402e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAGHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA  VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>67</Hit_num>
+  <Hit_id>pdb|4PMF|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4PMF|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4PMF_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>4.93427e-48</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>68</Hit_num>
+  <Hit_id>pdb|4YDM|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4YDM|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4YDN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4YDN|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4YDM_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.83606e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVXVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL V +LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>69</Hit_num>
+  <Hit_id>pdb|2TRY|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2TRY|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2TRY_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>5.90027e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKYYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTK YWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>70</Hit_num>
+  <Hit_id>pdb|3BT0|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3BT0|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3BT0_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.09719e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDASRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDA +G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>71</Hit_num>
+  <Hit_id>pdb|3CXF|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CXF|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DK2|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DK2|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3CXF_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>6.09719e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPHSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSP+SYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>72</Hit_num>
+  <Hit_id>pdb|5LLV|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5LLV|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5LLV|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|5LLV|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5LLV_A</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>6.86473e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPMHEHAEVVFTANDSGPRRYTIAAMLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +P HE A+VVF A+  G R YT+A +LSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>73</Hit_num>
+  <Hit_id>pdb|1GKO|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1GKO|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1GKO|C Chain C, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1GKO|D Chain D, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2NBO|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DGD|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DGD|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DGD|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3DGD|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3DID|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DID|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DID|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3DID|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3GPS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GPS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GPS|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3GPS|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3GRB|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GRB|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GRB|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3GRB|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|3GRG|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3GRG|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3GRG|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|3GRG|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>1GKO_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>7.67237e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPMHEHAEVVFTANDSGPRRYTIAAMLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +P HE A+VVF A+  G R YT+A +LSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>74</Hit_num>
+  <Hit_id>pdb|8PKF|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8PKF|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8PKF|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8PKF|D Chain D, Transthyretin [Homo sapiens] &gt;pdb|8PKF|E Chain E, Transthyretin [Homo sapiens] &gt;pdb|8PKF|F Chain F, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8PKF_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>9.86809e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASEKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+  T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>75</Hit_num>
+  <Hit_id>pdb|4TL5|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TL5|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TL5_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.06926e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGIPPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G  PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>76</Hit_num>
+  <Hit_id>pdb|3A4E|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3A4E|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3A4E_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>1.15018e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGGLHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++G  H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>77</Hit_num>
+  <Hit_id>pdb|8E7I|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin protein [Homo sapiens] &gt;pdb|8E7I|B Chain B, Transthyretin protein [Homo sapiens] &gt;pdb|8E7I|C Chain C, Transthyretin protein [Homo sapiens] &gt;pdb|8E7I|D Chain D, Transthyretin protein [Homo sapiens] &gt;pdb|8E7I|E Chain E, Transthyretin protein [Homo sapiens]</Hit_def>
+  <Hit_accession>8E7I_A</Hit_accession>
+  <Hit_len>147</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>1.19635e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>147</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>VLLCNSSPTPTEKHGGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>VFVSEAGPT-----GTGESKCPLMVKVLDAVRGSSAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>V +  + PT     G  ++KCPL VK+LDAV+G+ A +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>78</Hit_num>
+  <Hit_id>pdb|6E73|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6E73|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6E73_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.31223e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>79</Hit_num>
+  <Hit_id>pdb|6FWD|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6FWD|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6FWD_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.34059e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFGKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>80</Hit_num>
+  <Hit_id>pdb|4TLS|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TLS|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TLS_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.34551e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAPVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>81</Hit_num>
+  <Hit_id>pdb|3NES|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3NES|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3NEX|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3NEX|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3NES_A</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.46122e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAMHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>82</Hit_num>
+  <Hit_id>pdb|3DJR|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DJR|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3DJS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3DJS|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3DJR_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.57971e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGHTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H   TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>83</Hit_num>
+  <Hit_id>pdb|1III|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1III|B Chain B, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1IIK|A Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|1IIK|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1III_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.59709e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPCSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSP SYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>84</Hit_num>
+  <Hit_id>pdb|6E74|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6E74|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6E74_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>1.70653e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGEPHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>85</Hit_num>
+  <Hit_id>pdb|7THA|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|7THA|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>7THA_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>1.76238e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKAPLVVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++K PL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>86</Hit_num>
+  <Hit_id>pdb|4TNG|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TNG|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TNG_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.06175e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>87</Hit_num>
+  <Hit_id>pdb|8I0O|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|8I0O|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8I0O|C Chain C, Transthyretin [Homo sapiens] &gt;pdb|8I0O|D Chain D, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>8I0O_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>2.29164e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPMHEHAEVVFTSNDSGPRRYTIAAMLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +P HE A+VVF ++  G R YT+A +LSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>88</Hit_num>
+  <Hit_id>pdb|4TLK|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TLK|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TLK_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.37693e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGIPPFHEHAPVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G  PFHE A VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>89</Hit_num>
+  <Hit_id>pdb|3CFM|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CFM|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3CFN|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CFN|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3CFQ|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CFQ|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3CFT|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3CFT|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5K1N|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5K1N|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5N7C|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5N7C|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3CFM_A</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.40844e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>90</Hit_num>
+  <Hit_id>pdb|4DEU|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4DEU|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4DEU_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.6339e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>91</Hit_num>
+  <Hit_id>pdb|3I9P|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|3I9P|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3NEE|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3NEE|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3NEO|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3NEO|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4DER|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4DER|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4DES|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4DES|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4DET|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4DET|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|4HJS|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|4HJS|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5DWP|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5DWP|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5K1J|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5K1J|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5N5Q|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5N5Q|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|8AWW|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|8AWW|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>3I9P_A</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.66804e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>92</Hit_num>
+  <Hit_id>pdb|5E4O|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|5E4O|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5N62|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5N62|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5E4O_A</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.75179e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>93</Hit_num>
+  <Hit_id>pdb|6FZL|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6FZL|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6FZL_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.7905e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRTAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+ AAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>94</Hit_num>
+  <Hit_id>pdb|6E6Z|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|6E6Z|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6E70|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6E70|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6EOY|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6EOY|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|6EP1|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|6EP1|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|7ACU|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|7ACU|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>6E6Z_A</Hit_accession>
+  <Hit_len>115</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>2.85472e-47</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>CPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTD</Hsp_qseq>
+      <Hsp_hseq>CPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTN</Hsp_hseq>
+      <Hsp_midline>CPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>95</Hit_num>
+  <Hit_id>pdb|1BZ8|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (TRANSTHYRETIN) [Homo sapiens] &gt;pdb|1BZ8|B Chain B, PROTEIN (TRANSTHYRETIN) [Homo sapiens]</Hit_def>
+  <Hit_accession>1BZ8_A</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>2.95292e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>132</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAV</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAV</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>96</Hit_num>
+  <Hit_id>pdb|2H4E|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|2H4E|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|3HJ0|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|3HJ0|B Chain B, Transthyretin [Homo sapiens] &gt;pdb|5TZL|A Chain A, Transthyretin [Homo sapiens] &gt;pdb|5TZL|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>2H4E_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.07928e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKXPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++K PL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>97</Hit_num>
+  <Hit_id>pdb|2NBP|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>2NBP_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.36097e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPMHEHAEVVFTANDSGPRRYTIAAMLSPYSYSTMAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +P HE A+VVF A+  G R YT+A +LSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>98</Hit_num>
+  <Hit_id>pdb|5OQ0|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>5OQ0_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>3.36097e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPMHEHAEVVFTANDSGPRRYTIAAMLSPYSYETTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +P HE A+VVF A+  G R YT+A +LSPYSY TTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>99</Hit_num>
+  <Hit_id>pdb|2TRH|A</Hit_id>
+  <Hit_def>Chain A, TRANSTHYRETIN [Homo sapiens] &gt;pdb|2TRH|B Chain B, TRANSTHYRETIN [Homo sapiens]</Hit_def>
+  <Hit_accession>2TRH_A</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.004e-47</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>GGSDTKCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>GTGESKRPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTTAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>G  ++K PL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYSTTAVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>100</Hit_num>
+  <Hit_id>pdb|4TNE|A</Hit_id>
+  <Hit_def>Chain A, Transthyretin [Homo sapiens] &gt;pdb|4TNE|B Chain B, Transthyretin [Homo sapiens]</Hit_def>
+  <Hit_accession>4TNE_A</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>4.68443e-47</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>138</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>KCPLTVKILDAVKGTPAGSVALKVFQKAADGAWTQIANGVTDDTGESHNLITEQQFSAGVYRVEFDTKSYWKNEGSTPFHEAADVVFEAHAEGHRHYTLALLLSPYSYSTTAVVTDTHQ</Hsp_qseq>
+      <Hsp_hseq>KCPLMVKVLDAVRGSPAINVAVHVFRKAADDTWEPFASGKTSESGELHGLTTEEEFVEGIYKVEIDTKSYWKALGISPFHEHAEVVFTANDSGPRRYTIAALLSPYSYSTYAVVTNPKE</Hsp_hseq>
+      <Hsp_midline>KCPL VK+LDAV+G+PA +VA+ VF+KAAD  W   A+G T ++GE H L TE++F  G+Y+VE DTKSYWK  G +PFHE A+VVF A+  G R YT+A LLSPYSYST AVVT+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>2</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514328</Iteration_query-ID>
+  <Iteration_query-def>tiger_puffer</Iteration_query-def>
+  <Iteration_query-len>131</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>3</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514329</Iteration_query-ID>
+  <Iteration_query-def>frogs</Iteration_query-def>
+  <Iteration_query-len>137</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>4</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514330</Iteration_query-ID>
+  <Iteration_query-def>snakes</Iteration_query-def>
+  <Iteration_query-len>129</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>5</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514331</Iteration_query-ID>
+  <Iteration_query-def>pigtail_monkey</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>6</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514332</Iteration_query-ID>
+  <Iteration_query-def>[Homo</Iteration_query-def>
+  <Iteration_query-len>130</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+<Iteration>
+  <Iteration_iter-num>7</Iteration_iter-num>
+  <Iteration_query-ID>Query_1514333</Iteration_query-ID>
+  <Iteration_query-def>gorilla</Iteration_query-def>
+  <Iteration_query-len>133</Iteration_query-len>
+<Iteration_hits>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>165377</Statistics_db-num>
+      <Statistics_db-len>46633199</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
