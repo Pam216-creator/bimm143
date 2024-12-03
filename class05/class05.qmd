@@ -1,0 +1,265 @@
+---
+title: "Class 5 Data VIz with ggplot"
+author: "Pamelina Lo (PID: A16735368)"
+format: pdf
+---
+
+## Plotting in R
+
+R has lots of ways to make plots and figures. This includes so-called **base** graphics and packages like **ggplot2** 
+
+```{r}
+plot(cars)
+```
+
+This is a **base** R plot of the in-built `cars` dataset that has only two columns:
+```{r}
+head(cars)
+```
+
+> Q. How would we plot this wee dataset with **ggplot**? 
+
+All ggplot figures have at least 3 layers:
+- **data**
+- **aes** (how the data map to the plot)
+- **geoms** (how we draw the plot, lines, points, etc.)
+
+Before I use any new package I need to download and install it with the `install.packages()` command. 
+
+I never use `install.packages()` within my quarto document otherwise I will install the package over and over and over again - which is silly!
+
+Once its installed, I can load it up with the `library()`function.
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+ggplot(cars) +
+  aes(x=speed,y=dist) + geom_point()
+```
+
+**Key point**: For simple plots (like the one above) ggplot is more verbose (we need to do more typing) but as plots get more complicated ggplots starts to be more clear and simple than base R plot(). 
+
+```{r}
+ggplot(cars) +
+aes(speed, dist) +
+geom_point() + 
+  geom_smooth(method="lm", se= FALSE) + 
+  labs(title = "Stopping Distance of Old Cars", subtitle = "From the inbuilt cars dataset") +
+  theme_bw()
+```
+## Running Code
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+```{r}
+1 + 1
+```
+You can add options to executable code like this 
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+```{r}
+url <- "https://bioboot.github.io/bimm143_S20/class-material/up_down_expression.txt"
+genes <- read.delim(url)
+head(genes)
+```
+```{r}
+nrow(genes)
+colnames(genes)
+ncol(genes)
+table(genes$State)
+round( table(genes$State)/nrow(genes) * 100, 2 )
+```
+The key functions here where:
+
+`nrow()` and `ncol`
+`table()` is very useful for getting counts 
+finally `nround`
+
+>Q. Complete the code below to produce the following plot
+
+```{r}
+ggplot(genes) + 
+    aes(x=Condition1, y=Condition2)+
+  geom_point()
+```
+```{r}
+ggplot(genes) + 
+    aes(x=Condition1, y=Condition2)+
+  geom_point(col="blue")
+
+```
+```{r}
+ggplot(genes) + 
+    aes(x=Condition1, y=Condition2)+
+  geom_point(col="blue", alpha = 0.2)
+```
+```{r}
+p <- ggplot(genes) + 
+    aes(x=Condition1, y=Condition2, col=State) +
+    geom_point()
+p
+```
+>Q. Nice, now add some plot annotations to the p object with the labs() function so your plot looks like the following:
+
+```{r}
+p + scale_colour_manual(values=c("blue","gray","red")) +
+    labs(title="Gene Expresion Changes Upon Drug Treatment",
+         x="Control (no drug) ",
+         y="Drug Treatment")
+```
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+# install.packages("dplyr")  ## un-comment to install if needed
+library(dplyr)
+
+url <- "https://raw.githubusercontent.com/jennybc/gapminder/master/inst/extdata/gapminder.tsv"
+
+gapminder <- read.delim(url)
+
+
+
+
+gapminder_2007 <- gapminder %>% filter(year==2007)
+ggplot(gapminder_2007) +
+  aes(x=gdpPercap, y=lifeExp) +
+  geom_point()
+```
+```{r}
+ggplot(gapminder_2007) +
+  aes(x=gdpPercap, y=lifeExp) +
+  geom_point(alpha=0.5)
+```
+```{r}
+ggplot(gapminder_2007) +
+  aes(x=gdpPercap, y=lifeExp, color=continent, size=pop) +
+  geom_point(alpha=0.5)
+```
+```{r}
+ggplot(gapminder_2007) + 
+  aes(x = gdpPercap, y = lifeExp, color = pop) +
+  geom_point(alpha=0.8)
+```
+```{r}
+ggplot(gapminder_2007) + 
+  aes(x = gdpPercap, y = lifeExp, size = pop) +
+  geom_point(alpha=0.5)
+```
+```{r}
+ggplot(gapminder_2007) + 
+  geom_point(aes(x = gdpPercap, y = lifeExp,
+                 size = pop), alpha=0.5) + 
+  scale_size_area(max_size = 10)
+```
+```{r}
+gapminder_1957 <- gapminder %>% filter(year==1957 | year==2007)
+
+ggplot(gapminder_1957) + 
+  geom_point(aes(x = gdpPercap, y = lifeExp, color=continent,
+                 size = pop), alpha=0.7) + 
+  scale_size_area(max_size = 10) +
+  facet_wrap(~year)
+```
+```{r}
+gapminder_top5 <- gapminder %>% 
+  filter(year==2007) %>% 
+  arrange(desc(pop)) %>% 
+  top_n(5, pop)
+
+gapminder_top5
+```
+```{r}
+ggplot(gapminder_top5) + 
+  geom_col(aes(x = country, y = pop))
+```
+```{r}
+ggplot(gapminder_top5) + 
+  geom_col(aes(x = country, y = pop, fill = continent))
+```
+```{r}
+ggplot(gapminder_top5) + 
+  geom_col(aes(x = country, y = pop, fill = lifeExp))
+```
+```{r}
+ggplot(gapminder_top5) +
+  aes(x=country, y=pop, fill=gdpPercap) +
+  geom_col()
+```
+```{r}
+ggplot(gapminder_top5) +
+  aes(x=reorder(country, -pop), y=pop, fill=gdpPercap) +
+  geom_col()
+```
+```{r}
+ggplot(gapminder_top5) +
+  aes(x=reorder(country, -pop), y=pop, fill=country) +
+  geom_col(col="gray30") +
+  guides(fill="none")
+```
+
+```{r}
+head(USArrests)
+```
+```{r}
+USArrests$State <- rownames(USArrests)
+ggplot(USArrests) +
+  aes(x=reorder(State,Murder), y=Murder) +
+  geom_col() +
+  coord_flip()
+```
+```{r}
+ggplot(USArrests) +
+  aes(x=reorder(State,Murder), y=Murder) +
+  geom_point() +
+  geom_segment(aes(x=State, 
+                   xend=State, 
+                   y=0, 
+                   yend=Murder), color="blue") +
+  coord_flip()
+```
+
+```{r}
+length(gapminder$year)
+```
+```{r}
+table(gapminder$year)
+```
+```{r}
+unique(gapminder$year)
+```
+```{r}
+length(unique(gapminder$year))
+```
+```{r}
+library(dplyr)
+```
+>Q. Extract data for the US in 1992
+
+```{r}
+filter(gapminder,country=="United States")
+```
+```{r}
+filter(gapminder,country=="United States", year==1992)
+```
+>What is the population of Ireland? 
+
+```{r}
+filter(gapminder, country=="Ireland", year==2007)
+```
+> What countries in data set had pop smaller than Ireland in 2007?
+
+- First limit/subset the dataset to the year 2007
+```{r}
+filter(gapminder, year==2007)
+```
+- Next find the `pop` value for Ireland
+```{r}
+filter(gapminder, country=="Ireland")
+```
+
+- Then extract all rows with `pop` less than Ireland's
+```{r}
+filter(gapminder, year==2007, pop<4109086)
+```
