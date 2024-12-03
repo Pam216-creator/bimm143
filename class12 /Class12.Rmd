@@ -1,0 +1,90 @@
+---
+title: "Class 12: Q13-Q14 Homework"
+author: 'Pamelina Lo (SID: A16735368)'
+date: "2024-11-07"
+output: pdf_document
+---
+
+# Section 1. Proportion of G/G in a population
+
+Downloaded a CSV file from Ensemble < https://useast.ensembl.org/Homo_sapiens/Variation/Sample?db=core;r=17:39780097-40010098;v=rs8067378;vdb=variation;vf=959672880#373531_tablePanel
+
+Here we read this CSV file
+
+```{r}
+mxl <- read.csv("373531-SampleGenotypes-Homo_sapiens_Variation_Sample_rs8067378.csv")
+head(mxl)
+```
+
+```{r}
+table(mxl$Genotype..forward.strand.)
+```
+
+```{r}
+table(mxl$Genotype..forward.strand.) / nrow(mxl) * 100
+```
+
+Lets look at a different population. I picked the GBR (Great Britian). 
+
+```{r}
+gbr <- read.csv("373522-SampleGenotypes-Homo_sapiens_Variation_Sample_rs8067378.csv")
+head(gbr)
+```
+
+Find proportion of G|G
+
+```{r}
+round(table(gbr$Genotype..forward.strand.) / nrow(gbr) * 100, 2)
+```
+
+This variant that is assoicated with childhood asthma is more frequent in the GBR population than the MKL population.
+
+
+
+# Section 4: Population Scale Analysis
+
+**Q13: Read this file into R and determine the sample size for each genotype and their corresponding median expression levels for each of these genotypes.** 
+
+```{r}
+expr <- read.table("https://bioboot.github.io/bimm143_F24/class-material/rs8067378_ENSG00000172057.6.txt")
+head(expr)
+```
+
+Sample Size:
+```{r}
+nrow(expr)
+```
+
+**Sample size and Median expression levels for each genotype:**
+```{r}
+library(dplyr)
+
+genotype_summary <- expr %>%
+  group_by(expr$geno) %>%
+  summarise(
+    sample_size = n(),
+    median_expression = median(exp, na.rm = FALSE)
+  )
+
+print(genotype_summary)
+```
+
+The sample sizes: A|A = 108 ,  A|G = 233,  G|G = 121
+Median Expression: A|A = 31.25 , A|G = 25.06 , G|G = 20.07
+
+
+**Q14: Generate a boxplot with a box per genotype, what could you infer from the relative expression value between A/A and G/G displayed in this plot? Does the SNP effect the
+expression of ORMDL3?** 
+
+I can infer that the relative expression value is that there is more expression of the A|A genotype, than G|G because, based on the plots, A|A appears to be higher than G|G plot because its median is larger and the distribution of the plot is more spread out. The SNP does effect the expression of ORMDL3 because having G|G genotype in this location associates to a reduced expression on this gene.  
+
+```{r}
+library(ggplot2)
+```
+
+```{r}
+ggplot(expr) +
+  aes(geno, exp, fill = geno) +
+  geom_boxplot()
+```
+

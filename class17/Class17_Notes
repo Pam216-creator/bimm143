@@ -1,0 +1,25 @@
+Notes for class 17:
+
+pwd: tells you where you are (print working directory)
+ssh: open a secure shell on another computer (login)
+# ssh [-i keyfile] username@computername
+gunzip: un zip files
+tar -xvf: to untar files
+*: helps you run multiple files 
+scp: secure copy from or to a remote machine 
+# scp -i keyfile username@remotecomputer:FILE2COPY NEWlocalFILE
+
+The PATH is a special envirnoment variable that storeis the location of exe file in UNIX systems. I can print it with `echo $PATH`.
+
+We can add it with:
+export PATH=$PATH:/my/new/path
+
+The SRA-TOOLKIT allows us to query and download raw sequencing data from NCBI's SRA database. Key commands include:
+- prefetch [SRACODE]
+- fastq-dump [SRACODE]
+
+ssh -i "~/Downloads/bimm143_palo.pem" ubuntu@ec2-54-202-210-0.us-west-2.compute.amazonaws.com
+
+scp -r -i "~/Downloads/bimm143_palo.pem" ubuntu@ec2-54-202-210-0.us-west-2.compute.amazonaws.com:~/*_quant . 
+
+
