@@ -1,7 +1,7 @@
 ---
 title: "Class 14: RNA-Seq Analysis mini-project"
 author: "Pamelina Lo (AID: 16735368)"
-format: pdf
+format: gfm
 ---
 
 ## Section 1. Differential Expression Analysis
