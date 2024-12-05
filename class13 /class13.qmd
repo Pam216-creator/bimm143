@@ -1,7 +1,7 @@
 ---
 title: "Lab 13: RNASeq with DESeq2"
 author: "Pamelina Lo (AID: 16735368)"
-format: pdf
+format: gfm
 ---
 
  Today we will be analyzing some RNASeq data drom Himes et al. on the effects of dexamethasone, a sytnthetic glucorcorticiod steriod on airway smooth muscle cells (ASM).
