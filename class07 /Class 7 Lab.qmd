@@ -1,7 +1,7 @@
 ---
 title: "Class 7 Lab: Machine Learning I"
 author: "Pamelina Lo (PID:A16735368)"
-format: pdf
+format: gfm
 ---
 
 Today we are going to learn how to apply different machine learning methods, beginning with clustering:
