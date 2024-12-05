@@ -1,7 +1,7 @@
 ---
 title: "Class 10 Halloween Mini Project"
 author: "Pamelina Lo (AID: 16735368)"
-format: pdf
+format: gfm
 ---
 Today is Halloween, an ole Irish holiday, let's celebrate by eating candy. 
 
@@ -366,6 +366,7 @@ p + geom_text_repel(size=3.3, col=my_cols, max.overlaps = 49)  +
 library(plotly)
 ggplotly(p)
 ```
+
 ```{r}
 par(mar=c(8,4,2,2))
 barplot(pca$rotation[,1], las=2, ylab="PC1 Contribution")
