@@ -1,6 +1,5 @@
 # BIMM143 - Introduction to Bioinformatics
-Classwork for [BIMM143](https://bioboot.github.io/bimm143_F24/) F24 at UC San Diego.
-
+Classwork for [BIMM143](https://bioboot.github.io/bimm143_F24/) F24 at UC San Diego
 
 - Lab 5: [Data Exploration and Visualization in R](https://github.com/Pam216-creator/bimm143/blob/main/class05/class05.md)
   
