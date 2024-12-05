@@ -1,0 +1,17 @@
+---
+title: "Lab 18: Introduction to Git and GitHub"
+format: html
+---
+
+```{r}
+install.packages("usethis")
+library(usethis)
+create_github_token()
+```
+
+```{r}
+install.packages("gitcreds")
+library(gitcreds)
+gitcreds_set()
+```
+
